@@ -1,0 +1,18 @@
+make texture and icon for fletcher
+make texture and icon for organic trader
+make ice icons have no transperency
+make freezer icon no transperency
+anvil icons
+anvil colours
+alchemybench texture
+alchemy bench icon
+double sling icons
+alchemy icons
+
+npc colours
+
+Finish alchemy stuff
+alchemy stuff that is useful/not usefull (maybe more)
+alchemy stuff that makes unknown items (for magic (1/6 done))
+
+check types without recipes

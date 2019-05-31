@@ -1,0 +1,437 @@
+[{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.Cobblestone",
+		"requires": [{
+			"amount": 5,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.Cobblestone"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.MossyCobblestone",
+		"requires": [{
+			"amount": 5,
+			"type": "NACH0.Types.Cobblestone"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.MossyCobblestone"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.StoneBricks1",
+		"requires": [{
+			"amount": 5,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.StoneBricks1"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.StoneBricks2",
+		"requires": [{
+			"amount": 5,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.StoneBricks2"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.CrackedStoneBricks2",
+		"requires": [{
+			"amount": 5,
+			"type": "NACH0.Types.StoneBricks2"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.CrackedStoneBricks2"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.CrackedStoneBricks2",
+		"requires": [{
+			"amount": 5,
+			"type": "NACH0.Types.StoneBricks2"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.CrackedStoneBricks2"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.MossyStoneBricks2",
+		"requires": [{
+			"amount": 5,
+			"type": "NACH0.Types.StoneBricks2"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.MossyStoneBricks2"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.StoneSlabs",
+		"requires": [{
+			"amount": 5,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.StoneSlabs"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.Stone1",
+		"requires": [{
+			"amount": 5,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.Stone1"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.Stone2",
+		"requires": [{
+			"amount": 5,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.Stone2"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.Stone3",
+		"requires": [{
+			"amount": 5,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.Stone3"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.Stone4",
+		"requires": [{
+			"amount": 5,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.Stone4"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.Stone5",
+		"requires": [{
+			"amount": 5,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.Stone5"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.Stone1Smoothed",
+		"requires": [{
+			"amount": 5,
+			"type": "NACH0.Types.Stone1"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.Stone1Smoothed"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.Stone2Smoothed",
+		"requires": [{
+			"amount": 5,
+			"type": "NACH0.Types.Stone2"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.Stone2Smoothed"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.Stone3Smoothed",
+		"requires": [{
+			"amount": 5,
+			"type": "NACH0.Types.Stone3"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.Stone3Smoothed"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.Sandstone1",
+		"requires": [{
+			"amount": 5,
+			"type": "NACH0.Types.Sand1"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.Sandstone1"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.Sandstone1Smoothed",
+		"requires": [{
+			"amount": 5,
+			"type": "NACH0.Types.Sandstone1"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.Sandstone1Smoothed"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.Sandstone1Carved",
+		"requires": [{
+			"amount": 5,
+			"type": "NACH0.Types.Sandstone1Smoothed"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.Sandstone1Carved"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.RedSandstone1",
+		"requires": [{
+			"amount": 5,
+			"type": "NACH0.Types.RedSand1"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.RedSandstone1"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.RedSandstone1Smoothed",
+		"requires": [{
+			"amount": 5,
+			"type": "NACH0.Types.RedSandstone1"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.RedSandstone1Smoothed"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.RedSandstone1Carved",
+		"requires": [{
+			"amount": 5,
+			"type": "NACH0.Types.RedSandstone1Smoothed"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "NACH0.Types.RedSandstone1Carved"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.Gravel1",
+		"requires": [{
+			"amount": 2,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"amount": 7,
+			"type": "NACH0.Types.Gravel1"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "pipliz.stonemason.bricksdarkred",
+		"requires": [{
+			"amount": 5,
+			"type": "bricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "bricksdarkred"
+		}],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit": 0,
+		"name": "pipliz.stonemason.bricksblack",
+		"requires": [{
+			"amount": 5,
+			"type": "bricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "bricksblack"
+		}],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit": 0,
+		"name": "pipliz.stonemason.bricksdarkyellow",
+		"requires": [{
+			"amount": 5,
+			"type": "bricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "bricksdarkyellow"
+		}],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit": 0,
+		"name": "pipliz.stonemason.bricksred",
+		"requires": [{
+			"amount": 5,
+			"type": "bricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "bricksred"
+		}],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit": 0,
+		"name": "pipliz.stonemason.cobblestoneblack",
+		"requires": [{
+			"amount": 5,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "cobblestoneblack"
+		}],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit": 0,
+		"name": "pipliz.stonemason.cobblestoneblue",
+		"requires": [{
+			"amount": 5,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "cobblestoneblue"
+		}],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit": 0,
+		"name": "pipliz.stonemason.stonebricksbrown",
+		"requires": [{
+			"amount": 5,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "stonebricksbrown"
+		}],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit": 0,
+		"name": "pipliz.stonemason.cobblestonebrown",
+		"requires": [{
+			"amount": 5,
+			"type": "stonebricks"
+		}],
+		"results": [{
+			"amount": 5,
+			"type": "cobblestonebrown"
+		}],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.Concrete",
+		"requires": [{
+				"amount": 5,
+				"type": "NACH0.Types.Gravel1"
+			},
+			{
+				"amount": 1,
+				"type": "bucketwater"
+			}
+		],
+		"results": [{
+				"amount": 1,
+				"type": "NACH0.Types.Concrete"
+			},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		]
+	},
+	{
+		"defaultLimit": 0,
+		"name": "NACH0.stonemason.SmoothedConcrete",
+		"requires": [{
+				"amount": 5,
+				"type": "NACH0.Types.Concrete"
+			}
+		],
+		"results": [{
+				"amount": 5,
+				"type": "NACH0.Types.SmoothedConcrete"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 200,
+		"name" : "pipliz.stonemason.stoneblock",
+		"requires" : [
+			{"amount":5,"type":"stoneblock"}
+		],
+		"results" : [
+			{"amount":5,"type":"stonebricks"}
+		]
+	},
+	{
+		"defaultLimit" : 200,
+		"name" : "pipliz.stonemason.darkstone",
+		"requires" : [
+			{"amount":2,"type":"darkstone"}
+		],
+		"results" : [
+			{"amount":5,"type":"stonebricks"}
+		]
+	}
+]

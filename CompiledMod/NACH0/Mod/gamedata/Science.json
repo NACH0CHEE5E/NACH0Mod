@@ -1,0 +1,413 @@
+[
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.sciencebagmilitary",
+			"NACH0.Research.ToolCrafter"
+		],
+		"icon" : "./textures/icons/Fletcher.png",
+		"iterationCount" : 25,
+		"iterationRequirements" : [
+			{
+				"type":"sciencebagmilitary"
+			},
+			{
+				"type": "sciencebagbasic",
+				"amount": 2
+			},
+			{
+				"type": "bronzearrow",
+				"amount": 10
+			}
+		],
+		"key" : "NACH0.Research.Fletcher",
+		"unlocksRecipeGroups" : [
+			"NACH0.Jobs.Fletcher"
+		],
+		"unlocksRecipes" : [
+			"NACH0.Player.Fletcher",
+			"NACH0.crafter.Fletcher"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.sciencebagbasic",
+			"pipliz.baseresearch.bloomery"
+		],
+		"icon" : "./textures/icons/CopperWorker.png",
+		"iterationCount" : 10,
+		"iterationRequirements" : [
+			{
+				"type": "sciencebagbasic",
+				"amount": 1
+			},
+			{
+				"type": "copperparts",
+				"amount": 10
+			}
+		],
+		"key" : "NACH0.Research.CopperWorker",
+		"unlocksRecipeGroups" : [
+			"NACH0.Jobs.CopperWorker"
+		],
+		"unlocksRecipes" : [
+			"NACH0.Player.CopperWorker",
+			"NACH0.crafter.CopperWorker"
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.CopperWorker"
+		],
+		"icon" : "./textures/icons/ToolCrafter.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type": "sciencebagbasic",
+				"amount": 2
+			},
+			{
+				"type": "coppertools",
+				"amount": 20
+			}
+		],
+		"key" : "NACH0.Research.ToolCrafter",
+		"unlocksRecipeGroups" : [
+			"NACH0.Jobs.ToolCrafter"
+		],
+		"unlocksRecipes" : [
+			"NACH0.Player.ToolCrafter",
+			"NACH0.crafter.ToolCrafter"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.sciencebagbasic"
+		],
+		"icon" : "./textures/icons/BrickMaker.png",
+		"iterationCount" : 10,
+		"iterationRequirements" : [
+			{
+				"type": "sciencebagbasic",
+				"amount": 1
+			},
+			{
+				"type": "bricks",
+				"amount": 10
+			}
+		],
+		"key" : "NACH0.Research.BrickMaker",
+		"unlocksRecipeGroups" : [
+			"NACH0.Jobs.BrickMaker"
+		],
+		"unlocksRecipes" : [
+			"NACH0.Player.BrickMaker",
+			"NACH0.crafter.BrickMaker"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.bloomery"
+		],
+		"icon" : "./textures/icons/Freezer.png",
+		"iterationCount" : 10,
+		"iterationRequirements" : [
+			{
+				"type": "sciencebagbasic",
+				"amount": 1
+			}
+		],
+		"key" : "NACH0.Research.Freezer",
+		"unlocksRecipeGroups" : [
+			"NACH0.Jobs.Freezer"
+		],
+		"unlocksRecipes" : [
+			"NACH0.metalsmith.Freezer",
+			"NACH0.IronAnvilWorker.Freezer",
+			"NACH0.SteelAnvilWorker.Freezer"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.bloomery",
+			"pipliz.baseresearch.herbfarming"
+		],
+		"icon" : "./textures/icons/PaintMixer.png",
+		"iterationCount" : 10,
+		"iterationRequirements" : [
+			{
+				"type": "sciencebagbasic",
+				"amount": 1
+			}
+		],
+		"key" : "NACH0.Research.PaintMixer",
+		"unlocksRecipeGroups" : [
+			"NACH0.Jobs.PaintMixer"
+		],
+		"unlocksRecipes" : [
+			"NACH0.metalsmith.PaintMixer",
+			"NACH0.IronAnvilWorker.PaintMixer",
+			"NACH0.SteelAnvilWorker.PaintMixer"
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.PaintMixer"
+		],
+		"icon" : "./textures/icons/PaintersTable.png",
+		"iterationCount" : 10,
+		"iterationRequirements" : [
+			{
+				"type":"sciencebagbasic"
+			},
+			{
+				"type":"NACH0.Types.MagentaPaint"
+			}
+		],
+		"key" : "NACH0.Research.PaintersTable",
+		"unlocksRecipeGroups" : [
+			"NACH0.Jobs.Painter"
+		],
+		"unlocksRecipes" : [
+			"NACH0.crafter.PaintersTable",
+			"NACH0.Player.PaintersTable"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.bloomery"
+		],
+		"icon" : "./textures/icons/IronAnvil.png",
+		"iterationCount" : 25,
+		"iterationRequirements" : [
+			{
+				"type":"sciencebagbasic"
+			},
+			{
+				"type":"bronzeanvil",
+				"amount": 1
+			}
+		],
+		"key" : "NACH0.Research.IronAnvil",
+		"unlocksRecipeGroups" : [
+			"NACH0.Jobs.IronAnvilWorker"
+		],
+		"unlocksRecipes" : [
+			"NACH0.crafter.IronAnvil",
+			"NACH0.Player.IronAnvil"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.fineryforge",
+			"pipliz.baseresearch.sciencebagadvanced",
+			"NACH0.Research.IronAnvil"
+		],
+		"icon" : "./textures/icons/SteelAnvil.png",
+		"iterationCount" : 50,
+		"iterationRequirements" : [
+			{
+				"type":"sciencebagbasic",
+				"amount": 3
+			},
+			{
+				"type": "sciencebagadvanced",
+				"amount": 1,
+			},
+			{
+				"type":"NACH0.Types.IronAnvil",
+				"amount": 2
+			}
+		],
+		"key" : "NACH0.Research.SteelAnvil",
+		"unlocksRecipeGroups" : [
+			"NACH0.Jobs.SteelAnvilWorker"
+		],
+		"unlocksRecipes" : [
+			"NACH0.crafter.SteelAnvil",
+			"NACH0.Player.SteelAnvil"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.sciencebagadvanced"
+		],
+		"icon" : "./textures/icons/AlchemistBench.png",
+		"iterationCount" : 50,
+		"iterationRequirements" : [
+			{
+				"type":"sciencebagbasic",
+				"amount": 5
+			},
+			{
+				"type": "sciencebagadvanced",
+				"amount": 3,
+			},
+			{
+				"type":"goldore",
+				"amount": 5
+			}
+		],
+		"key" : "NACH0.Research.AlchemistBench",
+		"unlocksRecipes" : [
+			"NACH0.crafter.AlchemistBench",
+			"NACH0.Player.AlchemistBench"
+		]
+	},
+	{
+		"icon" : "./textures/icons/Slingshot.png",
+		"iterationCount" : 5,
+		"iterationRequirements" : [
+			{
+				"type":"sling",
+				"amount": 3
+			},
+			{
+				"type": "slingbullet",
+				"amount": 10,
+			}
+		],
+		"key" : "NACH0.Research.Slingshot",
+		"unlocksRecipes" : [
+			"NACH0.crafter.Slingshot",
+			"NACH0.ToolCrafter.Slingshot"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.sciencebagadvanced",
+			"pipliz.baseresearch.crossbow"
+		],
+		"icon" : "./textures/icons/Ballista.png",
+		"iterationCount" : 50,
+		"iterationRequirements" : [
+			{
+				"type":"sciencebagmilitary",
+				"amount": 2
+			},
+			{
+				"type": "sciencebagadvanced",
+				"amount": 1
+			},
+			{
+				"type":"crossbowbolt",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.Ballista",
+		"unlocksRecipes" : [
+			"NACH0.metalsmith.BallistaBolt",
+			"NACH0.IronAnvilWorker.BallistaBolt",
+			"NACH0.SteelAnvilWorker.BallistaBolt",
+			"NACH0.Fletcher.BallistaBolt",
+			"NACH0.metalsmith.Ballista",
+			"NACH0.ToolCrafter.Ballista",
+			"NACH0.SteelAnvilWorker.Ballista",
+			"NACH0.IronAnvilWorker.Ballista"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.bloomery",
+			"pipliz.baseresearch.archery"
+		],
+		"icon" : "./textures/icons/CompoundBow.png",
+		"iterationCount" : 12,
+		"iterationRequirements" : [
+			{
+				"type":"bow",
+				"amount": 1
+			},
+			{
+				"type": "bronzearrow",
+				"amount": 3
+			},
+			{
+				"type":"sciencebagbasic",
+				"amount": 1
+			}
+		],
+		"key" : "NACH0.Research.CompoundBow",
+		"unlocksRecipes" : [
+			"NACH0.metalsmith.CompoundBow",
+			"NACH0.ToolCrafter.CompoundBow",
+			"NACH0.SteelAnvilWorker.CompoundBow",
+			"NACH0.IronAnvilWorker.CompoundBow"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.matchlockgun"
+		],
+		"icon" : "./textures/icons/Sniper.png",
+		"iterationCount" : 40,
+		"iterationRequirements" : [
+			{
+				"type":"matchlockgun",
+				"amount": 1
+			},
+			{
+				"type": "leadbullet",
+				"amount": 5
+			},
+			{
+				"type":"sciencebagmilitary",
+				"amount": 1
+			}
+		],
+		"key" : "NACH0.Research.Sniper",
+		"unlocksRecipes" : [
+			"NACH0.gunsmith.Sniper"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.bloomery",
+			"pipliz.baseresearch.sciencebagmilitary"
+		],
+		"icon" : "./../../../../textures/icons/ironsword.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"ironsword",
+				"amount": 3
+			},
+			{
+				"type": "sciencebagbasic",
+				"amount": 2
+			},
+			{
+				"type":"sciencebagmilitary",
+				"amount": 1
+			},
+			{
+				"type": "undershirt",
+				"amount": 1
+			}
+		],
+		"key" : "NACH0.Research.SwordGuard",
+		"unlocksRecipes" : [
+			"NACH0.metalsmith.IronArmour",
+			"NACH0.IronAnvilWorker.IronArmour",
+			"NACH0.SteelAnvilWorker.IronArmour"
+		]
+	},
+	{
+		"icon" : "./textures/icons/BasicStoneMason.png",
+		"iterationCount" : 3,
+		"iterationRequirements" : [
+			{
+				"type":"stoneblock",
+				"amount": 5
+			},
+			{
+				"type": "darkstone",
+				"amount": 2
+			}
+		],
+		"key" : "NACH0.Research.BasicStoneMason",
+		"unlocksRecipes" : [
+			"NACH0.crafter.BasicStoneMason",
+			"NACH0.player.BasicStoneMason"
+		]
+	}
+]

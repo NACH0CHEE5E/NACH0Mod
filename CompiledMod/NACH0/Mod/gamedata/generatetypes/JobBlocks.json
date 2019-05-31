@@ -1,0 +1,70 @@
+[
+	{
+		"baseType": {
+			"categories": [
+				"job"
+			],
+			"destructionTime": 800,
+			"icon": "./../textures/icons/BrickMaker.png",
+			"onPlaceAudio": "stonePlace",
+			"onRemoveAudio": "stoneDelete",
+			"sideall": "furnaceside"
+		},
+		"generateType": "rotateBlock",
+		"litTypeCustomData": {
+			"torches": {
+				"a": {
+					"color": "#c3872e",
+					"intensity": 2.5,
+					"offsetx": 0,
+					"offsety": 0.55,
+					"offsetz": 0,
+					"range": 8,
+					"volume": 0.3
+				},
+				"b": {
+					"color": "#c3872e",
+					"intensity": 1,
+					"offsetx": 0.55,
+					"offsety": -0.25,
+					"offsetz": 0,
+					"range": 8,
+					"volume": 0.2
+				}
+			}
+		},
+		"sideFrontLit": "furnacelittop",
+		"sideFrontUnlit": "furnaceunlittop",
+		"typeName": "NACH0.Types.BrickMaker"
+	},
+	{
+		"typeName": "NACH0.Types.Freezer",
+		"baseType": {
+			"categories": [
+				"job"
+			],
+			"destructionTime": 800,
+			"icon": "./../textures/icons/Freezer.png",
+			"onPlaceAudio": "stoneDelete",
+			"onRemoveAudio": "stonePlace",
+			"sideall": "ironblock"
+		},
+		"generateType": "rotateBlock",
+		"sideFrontUnlit": "NACH0.Textures.FreezerFront"
+	},
+	{
+		"typeName": "NACH0.Types.PaintMixer",
+		"baseType": {
+			"categories": [
+				"job"
+			],
+			"destructionTime": 800,
+			"icon": "./../textures/icons/PaintMixer.png",
+			"onPlaceAudio": "stoneDelete",
+			"onRemoveAudio": "stonePlace",
+			"sideall": "ironblock"
+		},
+		"generateType": "rotateBlock",
+		"sideFrontUnlit": "NACH0.Textures.PaintMixerFront"
+	}
+]

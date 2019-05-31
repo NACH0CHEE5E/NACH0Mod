@@ -1,0 +1,15 @@
+PossessedStoneBricks
+rock
+PossessedStone
+EnchantedStone
+
+organic trader
+MagmaBlock1
+DiamondBlock1
+EmeraldBlock1
+FireBlock1
+SapphireBlock1
+RubyBlock1
+
+Quartz blocks
+

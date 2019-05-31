@@ -1,0 +1,459 @@
+{
+	"adobe": {
+		"categories": [
+			"decorative",
+			"dirt"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"bricksblack": {
+		"categories": [
+			"decorative",
+			"bricks",
+			"coloured",
+			"grey"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"bricksdarkred": {
+		"categories": [
+			"decorative",
+			"bricks",
+			"coloured",
+			"brown"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"bricksdarkyellow": {
+		"categories": [
+			"decorative",
+			"bricks",
+			"coloured",
+			"gold"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"bricksred": {
+		"categories": [
+			"decorative",
+			"bricks",
+			"coloured",
+			"red",
+			"darkred"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"carpetblue": {
+		"categories": [
+			"decorative",
+			"carpet",
+			"coloured",
+			"blue"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"carpetred": {
+		"categories": [
+			"decorative",
+			"carpet",
+			"coloured",
+			"red"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"carpetwhite": {
+		"categories": [
+			"decorative",
+			"carpet",
+			"coloured",
+			"white"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"carpetyellow": {
+		"categories": [
+			"decorative",
+			"carpet",
+			"coloured",
+			"yellow"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"clay": {
+		"categories": [
+			"decorative",
+			"clay"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"darkstone": {
+		"categories": [
+			"decorative",
+			"stone"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350,
+		"onRemove": [
+			{
+				"amount": 2,
+				"chance": 0.9,
+				"type": "stoneblock"
+			},
+			{
+				"amount": 1,
+				"chance": 0.3,
+				"type": "sand"
+			},
+			{
+				"amount": 1,
+				"chance": 0.4,
+				"type": "dirt"
+			},
+			{
+				"amount": 1,
+				"chance": 0.3,
+				"type": "darkstone"
+			}
+		]
+	},
+	"dirt": {
+		"categories": [
+			"decorative",
+			"dirt"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"lanternblue": {
+		"categories": [
+			"decorative",
+			"lantern",
+			"coloured",
+			"blue"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"lanterncyan": {
+		"categories": [
+			"decorative",
+			"lantern",
+			"coloured",
+			"aqua"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"lanterngreen": {
+		"categories": [
+			"decorative",
+			"lantern",
+			"coloured",
+			"green"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"lanternorange": {
+		"categories": [
+			"decorative",
+			"lantern",
+			"coloured",
+			"orange"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"lanternpink": {
+		"categories": [
+			"decorative",
+			"lantern",
+			"coloured",
+			"pink"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"lanternred": {
+		"categories": [
+			"decorative",
+			"lantern",
+			"coloured",
+			"red"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"lanternwhite": {
+		"categories": [
+			"decorative",
+			"lantern",
+			"coloured",
+			"white"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"lanternyellow": {
+		"categories": [
+			"decorative",
+			"lantern",
+			"coloured",
+			"yellow"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"logtaiga": {
+		"categories": [
+			"decorative",
+			"log"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"logtemperate": {
+		"categories": [
+			"decorative",
+			"log"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"oliveleaves": {
+		"categories": [
+			"decorative",
+			"leaves"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"planks": {
+		"categories": [
+			"decorative",
+			"planks"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"planksblue": {
+		"categories": [
+			"decorative",
+			"planks",
+			"coloured",
+			"blue"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"plankscyan": {
+		"categories": [
+			"decorative",
+			"planks",
+			"coloured",
+			"aqua"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"planksgreen": {
+		"categories": [
+			"decorative",
+			"planks",
+			"coloured",
+			"green"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"planksgrey": {
+		"categories": [
+			"decorative",
+			"planks",
+			"coloured",
+			"grey",
+			"lightgrey"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"plankspink": {
+		"categories": [
+			"decorative",
+			"planks",
+			"coloured",
+			"pink",
+			"lightpink"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"planksred": {
+		"categories": [
+			"decorative",
+			"planks",
+			"coloured",
+			"red"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"planksyellow": {
+		"categories": [
+			"decorative",
+			"planks",
+			"coloured",
+			"yellow"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"sand": {
+		"categories": [
+			"decorative",
+			"sand"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"snow": {
+		"categories": [
+			"decorative",
+			"snow"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"stoneblock": {
+		"categories": [
+			"decorative",
+			"stone"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350,
+		"onRemoveType": "stoneblock"
+	},
+	"stonebricks": {
+		"categories": [
+			"decorative",
+			"bricks",
+			"stone"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"stonebricksblack": {
+		"categories": [
+			"decorative",
+			"bricks",
+			"stone",
+			"coloured",
+			"black"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"stonebricksbrown": {
+		"categories": [
+			"decorative",
+			"bricks",
+			"stone",
+			"coloured",
+			"gold"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"stonebrickswhite": {
+		"categories": [
+			"decorative",
+			"bricks",
+			"stone",
+			"coloured",
+			"white"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"cobblestoneblack": {
+		"categories": [
+			"decorative",
+			"cobblestone",
+			"coloured",
+			"black"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"cobblestoneblue": {
+		"categories": [
+			"decorative",
+			"cobblestone",
+			"coloured",
+			"blue",
+			"darkblue"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"cobblestonebrown": {
+		"categories": [
+			"decorative",
+			"cobblestone",
+			"coloured",
+			"brown",
+			"lightbrown"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"cobblestonegrey": {
+		"categories": [
+			"decorative",
+			"cobblestone",
+			"coloured",
+			"white"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"cobblestonered": {
+		"categories": [
+			"decorative",
+			"cobblestone",
+			"coloured",
+			"red",
+			"darkred"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"straw": {
+		"categories": [
+			"decorative",
+			"straw"
+		],
+		"maxStackSize": 200,
+		"destructionTime": 350
+	},
+	"stonemasonworkbench": {
+		"categories": [
+			"job"
+		],
+		"icon": "./textures/icons/StoneMason.png",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "infinitestone",
+		"sidey+": "NACH0.Textures.StoneMason"
+	}
+}

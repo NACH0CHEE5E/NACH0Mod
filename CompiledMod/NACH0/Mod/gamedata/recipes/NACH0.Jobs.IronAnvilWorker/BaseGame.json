@@ -1,0 +1,210 @@
+[
+	{
+		"defaultLimit" : 10,
+		"name" : "NACH0.IronAnvilWorker.diamondnecklace",
+		"requires" : [
+			{"type":"diamond"},
+			{"type":"goldingot"},
+			{"type":"silveringot"}
+		],
+		"results" : [
+			{"type":"diamondnecklace"}
+		]
+	},
+	{
+		"defaultLimit" : 2,
+		"defaultPriority" : -100,
+		"name" : "NACH0.IronAnvilWorker.bronzepickaxe",
+		"requires" : [
+			{"type":"bronzeingot"},
+			{"type":"planks"}
+		],
+		"results" : [
+			{"type":"bronzepickaxe"}
+		]
+	},
+	{
+		"defaultLimit" : 2,
+		"defaultPriority" : -100,
+		"name" : "NACH0.IronAnvilWorker.bronzeaxe",
+		"requires" : [
+			{"type":"bronzeingot"},
+			{"type":"planks"}
+		],
+		"results" : [
+			{"type":"bronzeaxe"}
+		]
+	},
+	{
+		"defaultLimit" : 10,
+		"defaultPriority" : -100,
+		"name" : "NACH0.IronAnvilWorker.bronzeplate",
+		"requires" : [
+			{"type":"bronzeingot"}
+		],
+		"results" : [
+			{"type":"bronzeplate"}
+		]
+	},
+	{
+		"defaultLimit" : 60,
+		"defaultPriority" : 100,
+		"name" : "NACH0.IronAnvilWorker.bronzearrow",
+		"requires" : [
+			{"type":"bronzeingot"},
+			{"type":"planks"},
+			{"amount":5,"type":"feather"}
+		],
+		"results" : [
+			{"amount":5,"type":"bronzearrow"}
+		]
+	},
+	{
+		"defaultLimit" : 20,
+		"name" : "NACH0.IronAnvilWorker.jewelry",
+		"requires" : [
+			{"type":"goldingot"},
+			{"type":"silveringot"},
+			{"type":"steelparts"}
+		],
+		"results" : [
+			{"type":"jewelry"}
+		]
+	},
+	{
+		"defaultLimit" : 10,
+		"defaultPriority" : 0,
+		"name" : "NACH0.IronAnvilWorker.ironrivets",
+		"requires" : [
+			{"type":"ironingot"}
+		],
+		"results" : [
+			{"amount":5,"type":"ironrivet"}
+		]
+	},
+	{
+		"defaultLimit" : 15,
+		"defaultPriority" : 0,
+		"name" : "NACH0.IronAnvilWorker.ironwrought",
+		"requires" : [
+			{"type":"ironingot"}
+		],
+		"results" : [
+			{"type":"ironwrought"}
+		]
+	},
+	{
+		"defaultLimit" : 10,
+		"defaultPriority" : -100,
+		"name" : "NACH0.IronAnvilWorker.ironsword",
+		"requires" : [
+			{"amount":2,"type":"ironwrought"},
+			{"type":"ironrivet"},
+			{"type":"copperparts"}
+		],
+		"results" : [
+			{"type":"ironsword"}
+		]
+	},
+	{
+		"defaultLimit" : 1,
+		"defaultPriority" : -100,
+		"name" : "NACH0.IronAnvilWorker.ironblock",
+		"requires" : [
+			{"amount":12,"type":"ironwrought"}
+		],
+		"results" : [
+			{"type":"ironblock"}
+		]
+	},
+	{
+		"defaultLimit" : 5,
+		"defaultPriority" : -100,
+		"name" : "NACH0.IronAnvilWorker.steelparts",
+		"requires" : [
+			{"type":"steelingot"}
+		],
+		"results" : [
+			{"type":"steelparts"}
+		]
+	},
+	{
+		"defaultLimit" : 5,
+		"defaultPriority" : -100,
+		"name" : "NACH0.IronAnvilWorker.lanternyellow",
+		"requires" : [
+			{"amount":4,"type":"lead"},
+			{"amount":4,"type":"ironrivet"},
+			{"amount":4,"type":"ironwrought"},
+			{"type":"crystal"},
+			{"amount":5,"type":"charcoal"}
+		],
+		"results" : [
+			{"type":"lanternyellow"}
+		]
+	},
+	{
+		"defaultLimit" : 10,
+		"defaultPriority" : 100,
+		"name" : "NACH0.IronAnvilWorker.crossbowbolt",
+		"requires" : [
+			{"type":"ironwrought"},
+			{"amount":5,"type":"ironrivet"}
+		],
+		"results" : [
+			{"amount":5,"type":"crossbowbolt"}
+		]
+	},
+	{
+		"defaultLimit" : 2,
+		"defaultPriority" : 100,
+		"name" : "NACH0.IronAnvilWorker.crossbow",
+		"requires" : [
+			{"amount":3,"type":"ironwrought"},
+			{"amount":2,"type":"ironrivet"},
+			{"type":"bowstring"},
+			{"type":"coatedplanks"}
+		],
+		"results" : [
+			{"type":"crossbow"}
+		]
+	},
+	{
+		"defaultLimit" : 1,
+		"defaultPriority" : -100,
+		"name" : "NACH0.IronAnvilWorker.waterpump",
+		"requires" : [
+			{"amount":5,"type":"bronzeingot"},
+			{"amount":20,"type":"coppernails"}
+		],
+		"results" : [
+			{"type":"waterpump"}
+		]
+	},
+	{
+		"defaultLimit" : 1,
+		"defaultPriority" : -100,
+		"name" : "NACH0.IronAnvilWorker.fineryforge",
+		"requires" : [
+			{"type":"ironblock"},
+			{"type":"bronzeplate"},
+			{"amount":4,"type":"tin"}
+		],
+		"results" : [
+			{"type":"fineryforge"}
+		]
+	},
+	{
+		"defaultLimit" : 1,
+		"defaultPriority" : -100,
+		"name" : "NACH0.IronAnvilWorker.printingpress",
+		"requires" : [
+			{"type":"coatedplanks"},
+			{"amount":4,"type":"steelparts"},
+			{"amount":10,"type":"ironrivet"}
+		],
+		"results" : [
+			{"type":"printingpress"}
+		]
+	}
+]

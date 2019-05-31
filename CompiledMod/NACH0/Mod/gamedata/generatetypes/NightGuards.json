@@ -1,0 +1,157 @@
+[
+	{
+		"typeName": "NACH0.Types.Slingshot.Guard.Night",
+		"baseType": {
+			"categories": [
+				"job",
+				"guard",
+				"night"
+			],
+			"mesh": "./../../../../../meshes/outlinedblock.ply",
+			"customData": {
+				"colors": [
+					"#FFFFFF->#474747"
+				]
+			},
+			"needsBase": true,
+			"isSolid": false,
+			"onPlaceAudio": "woodPlace",
+			"onRemoveAudio": "woodDeleteLight",
+			"colliders": {
+				"boxes": [{
+					"max": [0.5, -0.4, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				}],
+				"collidePlayer": false
+			},
+			"maxStackSize": 1000,
+			"onRemove" : [
+			]
+		},
+		"generateType": "rotateBlock"
+	},
+	{
+		"typeName": "NACH0.Types.Ballista.Guard.Night",
+		"baseType": {
+			"categories": [
+				"job",
+				"guard",
+				"night"
+			],
+			"mesh": "./../../../../../meshes/outlinedblock.ply",
+			"customData": {
+				"colors": [
+					"#FFFFFF->#474747"
+				]
+			},
+			"needsBase": true,
+			"isSolid": false,
+			"onPlaceAudio": "woodPlace",
+			"onRemoveAudio": "woodDeleteLight",
+			"colliders": {
+				"boxes": [{
+					"max": [0.5, -0.4, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				}],
+				"collidePlayer": false
+			},
+			"maxStackSize": 1000,
+			"onRemove" : [
+			]
+		},
+		"generateType": "rotateBlock"
+	},
+	{
+		"typeName": "NACH0.Types.CompoundBow.Guard.Night",
+		"baseType": {
+			"categories": [
+				"job",
+				"guard",
+				"night"
+			],
+			"mesh": "./../../../../../meshes/outlinedblock.ply",
+			"customData": {
+				"colors": [
+					"#FFFFFF->#474747"
+				]
+			},
+			"needsBase": true,
+			"isSolid": false,
+			"onPlaceAudio": "woodPlace",
+			"onRemoveAudio": "woodDeleteLight",
+			"colliders": {
+				"boxes": [{
+					"max": [0.5, -0.4, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				}],
+				"collidePlayer": false
+			},
+			"maxStackSize": 1000,
+			"onRemove" : [
+			]
+		},
+		"generateType": "rotateBlock"
+	},
+	{
+		"typeName": "NACH0.Types.Sniper.Guard.Night",
+		"baseType": {
+			"categories": [
+				"job",
+				"guard",
+				"night"
+			],
+			"mesh": "./../../../../../meshes/outlinedblock.ply",
+			"customData": {
+				"colors": [
+					"#FFFFFF->#474747"
+				]
+			},
+			"needsBase": true,
+			"isSolid": false,
+			"onPlaceAudio": "woodPlace",
+			"onRemoveAudio": "woodDeleteLight",
+			"colliders": {
+				"boxes": [{
+					"max": [0.5, -0.4, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				}],
+				"collidePlayer": false
+			},
+			"maxStackSize": 1000,
+			"onRemove" : [
+			]
+		},
+		"generateType": "rotateBlock"
+	},
+	{
+		"typeName": "NACH0.Types.Sword.Guard.Night",
+		"baseType": {
+			"categories": [
+				"job",
+				"guard",
+				"night"
+			],
+			"mesh": "./../../../../../meshes/outlinedblock.ply",
+			"customData": {
+				"colors": [
+					"#FFFFFF->#474747"
+				]
+			},
+			"needsBase": true,
+			"isSolid": false,
+			"onPlaceAudio": "woodPlace",
+			"onRemoveAudio": "woodDeleteLight",
+			"colliders": {
+				"boxes": [{
+					"max": [0.5, -0.4, 0.5],
+					"min": [-0.5, -0.5, -0.5]
+				}],
+				"collidePlayer": false
+			},
+			"maxStackSize": 1000,
+			"onRemove" : [
+			]
+		},
+		"generateType": "rotateBlock"
+	}
+]

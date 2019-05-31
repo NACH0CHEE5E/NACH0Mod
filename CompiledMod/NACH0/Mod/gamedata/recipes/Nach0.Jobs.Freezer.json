@@ -1,0 +1,38 @@
+[
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.Freezer.Ice1",
+		"requires" : [
+			{
+				"type": "bucketwater"
+			}
+		],
+		"results" : [
+			{
+				"type": "NACH0.Types.Ice1"
+			},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		]
+	},	
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.Freezer.Ice2",
+		"requires" : [
+			{
+				"type": "bucketwater"
+			}
+		],
+		"results" : [
+			{
+				"type": "NACH0.Types.Ice2"
+			},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		]
+	}
+]

@@ -1,0 +1,333 @@
+[{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.Log1Tipped",
+		"requires": [{
+			"amount": 1,
+			"type": "NACH0.Types.Log1"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "NACH0.Types.Log1Tipped"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.Log2Tipped",
+		"requires": [{
+			"amount": 1,
+			"type": "NACH0.Types.Log2"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "NACH0.Types.Log2Tipped"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.Log3Tipped",
+		"requires": [{
+			"amount": 1,
+			"type": "NACH0.Types.Log3"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "NACH0.Types.Log3Tipped"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.Log4Tipped",
+		"requires": [{
+			"amount": 1,
+			"type": "NACH0.Types.Log4"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "NACH0.Types.Log4Tipped"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.Log5Tipped",
+		"requires": [{
+			"amount": 1,
+			"type": "NACH0.Types.Log5"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "NACH0.Types.Log5Tipped"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.Log6Tipped",
+		"requires": [{
+			"amount": 1,
+			"type": "NACH0.Types.Log6"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "NACH0.Types.Log6Tipped"
+		}]
+	},
+	{
+		"defaultLimit": 1,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.CopperWorker",
+		"requires": [{
+				"type": "bronzeanvil",
+				"amount": 2
+			},
+			{
+				"type": "copperparts",
+				"amount": 12
+			},
+			{
+				"type": "ironwrought",
+				"amount": 3
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.CopperWorker"
+		}]
+	},
+	{
+		"defaultLimit": 1,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.BrickMaker",
+		"requires": [{
+				"type": "clay",
+				"amount": 15
+			},
+			{
+				"type": "ironingot",
+				"amount": 9
+			},
+			{
+				"type": "furnace",
+				"amount": 1
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.BrickMaker"
+		}]
+	},
+	{
+		"defaultLimit": 1,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.Fletcher",
+		"requires": [{
+				"type": "workbench",
+				"amount": 5
+			},
+			{
+				"type": "bronzeaxe",
+				"amount": 3
+			},
+			{
+				"type": "bronzeplate",
+				"amount": 23
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.Fletcher"
+		}]
+	},
+	{
+		"defaultLimit": 1,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.ToolCrafter",
+		"requires": [{
+				"type": "workbench",
+				"amount": 3
+			},
+			{
+				"type": "bronzeaxe",
+				"amount": 5
+			},
+			{
+				"type": "bronzeanvil",
+				"amount": 1
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.ToolCrafter"
+		}]
+	},
+	{
+		"defaultLimit": 1,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.OrganicTrader",
+		"requires": [{
+				"type": "shop",
+				"amount": 2
+			},
+			{
+				"type": "goldcoin",
+				"amount": 85
+			},
+			{
+				"type": "hollyhockstage1",
+				"amount": 90
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.OrganicTrader"
+		}],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.ClayBlock1",
+		"requires": [{
+			"type": "clay",
+			"amount": 10
+		}],
+		"results": [{
+			"amount": 10,
+			"type": "NACH0.Types.ClayBlock1"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.CoalBlock1",
+		"requires": [{
+			"type": "coalore",
+			"amount": 6
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "NACH0.Types.CoalBlock1"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.HayBlock1",
+		"requires": [{
+			"type": "straw",
+			"amount": 10
+		}],
+		"results": [{
+			"amount": 10,
+			"type": "NACH0.Types.HayBlock1"
+		}]
+	},
+	{
+		"defaultLimit": 1,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.PaintersTable",
+		"requires": [{
+			"type": "planks"
+		}],
+		"results": [{
+			"type": "NACH0.Types.PaintersTable"
+		}]
+	},
+	{
+		"defaultLimit": 1,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.IronAnvil",
+		"requires": [{
+				"amount": 5,
+				"type": "ironingot"
+			},
+			{
+				"amount": 8,
+				"type": "coppernails"
+			},
+			{
+				"type": "coppertools"
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.IronAnvil"
+		}]
+	},
+	{
+		"defaultLimit": 1,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.SteelAnvil",
+		"requires": [{
+				"amount": 5,
+				"type": "steelingot"
+			},
+			{
+				"amount": 8,
+				"type": "coppernails"
+			},
+			{
+				"type": "coppertools"
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.SteelAnvil"
+		}]
+	},
+	{
+		"defaultLimit": 1,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.AlchemistBench",
+		"requires": [{
+				"amount": 5,
+				"type": "workbench"
+			},
+			{
+				"amount": 15,
+				"type": "goldore"
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.AlchemistBench"
+		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": 100,
+		"name": "NACH0.crafter.Slingshot",
+		"requires": [{
+				"amount": 1,
+				"type": "sling"
+			},
+			{
+				"amount": 3,
+				"type": "planks"
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.Slingshot"
+		}]
+	},
+	{
+		"defaultLimit" : 1,
+		"defaultPriority" : -100,
+		"name" : "NACH0.crafter.BasicStoneMason",
+		"requires" : [
+			{"type":"stoneblock"},
+			{"type":"coppertools"}
+		],
+		"results" : [
+			{"type":"NACH0.Types.BasicStoneMason"}
+		]
+	},
+	{
+		"defaultLimit" : 1,
+		"defaultPriority" : -100,
+		"name" : "pipliz.crafter.stonemasonworkbench",
+		"requires" : [
+			{"type":"darkstone"},
+			{"type":"coppertools"}
+		],
+		"results" : [
+			{"type":"stonemasonworkbench"}
+		]
+	}
+]

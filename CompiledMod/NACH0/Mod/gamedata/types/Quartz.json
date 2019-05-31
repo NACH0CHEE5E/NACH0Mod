@@ -1,0 +1,43 @@
+{
+	"NACH0.Types.QuartzBlock1": {
+		"categories": [
+			"decorative",
+			"quartz",
+			"NACH0"
+		],
+		"icon": "./../textures/icons/QuartzBlock1.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "NACH0.Textures.QuartzBlock1",
+		"destructionTime" : 350
+	},
+	"NACH0.Types.QuartzBlock1Chiseled": {
+		"categories": [
+			"decorative",
+			"quartz",
+			"NACH0"
+		],
+		"icon": "./../textures/icons/QuartzBlock1Chiseled.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "NACH0.Textures.QuartzBlock1Chiseled",
+		"destructionTime" : 350
+	},
+	"NACH0.Types.QuartzBlock1Piller": {
+		"categories": [
+			"decorative",
+			"quartz",
+			"NACH0"
+		],
+		"icon": "./../textures/icons/QuartzBlock1Piller.png",
+		"maxStackSize": 200,
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "NACH0.Textures.QuartzBlock1PillerSides",
+		"sidey+": "NACH0.Textures.QuartzBlock1",
+		"sidey-": "NACH0.Textures.QuartzBlock1",
+		"destructionTime" : 350
+	}
+}

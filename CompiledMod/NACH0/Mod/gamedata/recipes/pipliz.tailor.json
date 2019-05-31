@@ -1,0 +1,52 @@
+[
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.tailor.carpetwhite",
+		"requires" : [
+			{
+				"type":"planks"
+			},
+			{
+				"type":"linen"
+			}
+		],
+		"results" : [
+			{
+				"type":"carpetwhite"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.tailor.Wool",
+		"requires" : [
+			{
+				"amount": 2,
+				"type":"linen"
+			}
+		],
+		"results" : [
+			{
+				"amount": 6,
+				"type":"NACH0.Types.Wool"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.tailor.carpetwhite",
+		"requires" : [
+			{
+				"amount": 3,
+				"type":"NACH0.Types.Wool"
+			}
+		],
+		"results" : [
+			{
+				"amount": 1,
+				"type":"carpetwhite"
+			}
+		]
+	}
+]

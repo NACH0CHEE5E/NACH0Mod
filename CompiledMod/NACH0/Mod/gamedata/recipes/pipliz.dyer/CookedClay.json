@@ -1,0 +1,402 @@
+[
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.BlueStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.BlueDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.BlueStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.YellowStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.YellowDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.YellowStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.RedStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.RedDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.RedStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.LightGreyStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.LightGreyDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.LightGreyStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.GreyStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.GreyDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.GreyStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.AquaStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.AquaDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.AquaStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.BlackStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.BlackDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.BlackStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.DarkGreenStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.DarkGreenDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.DarkGreenStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.GreenStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.GreenDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.GreenStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.LightBlueStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.LightBlueDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.LightBlueStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.MagentaStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.MagentaDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.MagentaStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.OrangeStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.OrangeDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.OrangeStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.PinkStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.PinkDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.PinkStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.PurpleStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.PurpleDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.PurpleStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.GoldStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.GoldDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.GoldStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.WhiteStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.WhiteDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.WhiteStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.LightPinkStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.LightPinkDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.LightPinkStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.DarkBlueStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.DarkBlueDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.DarkBlueStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.LightBrownStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.LightBrownDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.LightBrownStainedCookedClay"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.dyer.DarkRedStainedCookedClay",
+		"requires" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.CookedClay"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.DarkRedDye"
+			}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"NACH0.Types.DarkRedStainedCookedClay"
+			}
+		]
+	}
+]

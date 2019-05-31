@@ -18,36 +18,41 @@ namespace NACH0.UI
            
             if (data.TypeSelected != ItemTypes.GetType(itemName).ItemIndex)
             {
+                //Chat.Send(player, "<color=blue>Error 1</color>");
                 return;
-            }
-            if (data.TypeSelected == ItemTypes.GetType(itemName).ItemIndex)
+            } else if (data.TypeSelected == ItemTypes.GetType(itemName).ItemIndex)
             {
                 if (data.ClickType == PlayerClickedData.EClickType.Left)
                 {
-                    SendGuardUI.SendUI(player);
+                    //Chat.Send(player, "<color=blue>Error 2</color>");
+                    SendCommandUI.SendUI(player);
                 }
                 else if (data.ClickType == PlayerClickedData.EClickType.Right)
                 {
+                    //Chat.Send(player, "<color=blue>Error 3</color>");
                     if (PlayerClickedData.EHitType.Block == data.HitType)
                     {
+                        //Chat.Send(player, "<color=blue>Error 4</color>");
                         PlayerClickedData.VoxelHit voxelData = data.GetVoxelHit();
                         if (voxelData.SideHit == VoxelSide.yPlus)
                         {
-                            /*if (voxelData.DistanceToHit <= 10)
-                            {
-                                
-                            }*/
-                            ServerManager.TryChangeBlock(voxelData.PositionBuild, ItemTypes.GetType(GuardUIInteraction.item_placer_dict[player]).ItemIndex);
+                            //Chat.Send(player, "<color=blue>Error 5</color>");
+                            ServerManager.TryChangeBlock(voxelData.PositionBuild, ItemTypes.GetType(commandUIInteraction.item_placer_dict[player]).ItemIndex, player);
                             //ServerManager.TryChangeBlock(voxelData.PositionBuild, ItemTypes.GetType("NACH0.Types.Slingshot.Guard.Night").ItemIndex);
 
-                            Chat.Send(player, "<color=blue>Placed: " + GuardUIInteraction.item_placer_dict[player] + "</color>");
+                            Chat.Send(player, "<color=blue>Placed: " + commandUIInteraction.item_placer_dict[player] + "</color>");
                         }
                     }
                 }
                 else
                 {
+                    //Chat.Send(player, "<color=blue>Error 6</color>");
                     return;
                 }
+            } else
+            {
+                //Chat.Send(player, "<color=blue>Error 7</color>");
+                return;
             }
         }
     }

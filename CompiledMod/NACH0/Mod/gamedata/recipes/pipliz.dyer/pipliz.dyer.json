@@ -1,0 +1,356 @@
+[
+	{
+		"defaultLimit" : 3,
+		"name" : "pipliz.dyer.quarterblockblack",
+		"requires" : [
+			{
+				"amount":4,
+				"type":"quarterblockgrey"
+			},
+			{
+				"type":"NACH0.Types.BlackPaint"
+			}
+		],
+		"results" : [
+			{"amount":4,"type":"quarterblockblack"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 3,
+		"name" : "pipliz.dyer.quarterblockwhite",
+		"requires" : [
+			{
+				"amount":4,
+				"type":"quarterblockgrey"
+			},
+			{
+				"type":"NACH0.Types.WhitePaint"
+			}
+		],
+		"results" : [
+			{"amount":4,"type":"quarterblockwhite"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.planksred",
+		"requires" : [
+			{
+				"amount":5,"type":"planks"
+			},
+			{
+				"amount":1,
+				"type":"NACH0.Types.RedPaint"
+			}
+		],
+		"results" : [
+			{"amount":5,"type":"planksred"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.planksgreen",
+		"requires" : [
+			{"amount":5,"type":"planks"},
+			{"type":"NACH0.Types.GreenPaint"}
+		],
+		"results" : [
+			{"amount":5,"type":"planksgreen"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.plankscyan",
+		"requires" : [
+			{"amount":5,"type":"planks"},
+			{"amount":1,"type":"NACH0.Types.LightBluePaint"}
+		],
+		"results" : [
+			{"amount":5,"type":"plankscyan"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.planksblue",
+		"requires" : [
+			{"amount":5,"type":"planks"},
+			{"amount":1,"type":"NACH0.Types.BluePaint"}
+		],
+		"results" : [
+			{"amount":5,"type":"planksblue"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.planksyellow",
+		"requires" : [
+			{"amount":5,"type":"planks"},
+			{"amount":1,"type":"NACH0.Types.YellowPaint"}
+		],
+		"results" : [
+			{"amount":5,"type":"planksyellow"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.plankspink",
+		"requires" : [
+			{"amount":5,"type":"planks"},
+			{"amount":1,"type":"NACH0.Types.PinkPaint"}
+		],
+		"results" : [
+			{"amount":5,"type":"plankspink"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.planksgrey",
+		"requires" : [
+			{"amount":5,"type":"planks"},
+			{"amount":1,"type":"NACH0.Types.LightGreyPaint"}
+		],
+		"results" : [
+			{"amount":5,"type":"planksgrey"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.redplanks",
+		"requires" : [
+			{"amount":5,"type":"coatedplanks"},
+			{"amount":1,"type":"NACH0.Types.RedPaint"}
+		],
+		"results" : [
+			{"amount":5,"type":"redplanks"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.blackplanks",
+		"requires" : [
+			{"amount":5,"type":"coatedplanks"},
+			{"amount":1,"type":"NACH0.Types.BlackPaint"}
+		],
+		"results" : [
+			{"amount":5,"type":"blackplanks"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.stonebrickswhite",
+		"requires" : [
+			{"amount":5,"type":"stonebricks"},
+			{"amount":1,"type":"NACH0.Types.WhitePaint"}
+		],
+		"results" : [
+			{"amount":5,"type":"stonebrickswhite"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.stonebricksblack",
+		"requires" : [
+			{"amount":5,"type":"stonebricks"},
+			{"type":"NACH0.Types.BlackPaint"}
+		],
+		"results" : [
+			{"amount":5,"type":"stonebricksblack"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.lanternwhite",
+		"requires" : [
+			{"amount":1,"type":"lanternyellow"},
+			{"amount":1,"type":"NACH0.Types.WhitePaint"}
+		],
+		"results" : [
+			{"amount":1,"type":"lanternwhite"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.lanterngreen",
+		"requires" : [
+			{"amount":1,"type":"lanternyellow"},
+			{"amount":1,"type":"NACH0.Types.GreenPaint"}
+		],
+		"results" : [
+			{"amount":1,"type":"lanterngreen"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.lanternblue",
+		"requires" : [
+			{"amount":1,"type":"lanternyellow"},
+			{"amount":1,"type":"NACH0.Types.BluePaint"}
+		],
+		"results" : [
+			{"amount":1,"type":"lanternblue"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.lanternred",
+		"requires" : [
+			{"amount":1,"type":"lanternyellow"},
+			{"amount":1,"type":"NACH0.Types.RedPaint"}
+		],
+		"results" : [
+			{"amount":1,"type":"lanternred"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.lanternorange",
+		"requires" : [
+			{"amount":1,"type":"lanternyellow"},
+			{"amount":1,"type":"NACH0.Types.OrangePaint"}
+		],
+		"results" : [
+			{"amount":1,"type":"lanternorange"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.lanterncyan",
+		"requires" : [
+			{"amount":1,"type":"lanternyellow"},
+			{"amount":1,"type":"NACH0.Types.LightBluePaint"}
+		],
+		"results" : [
+			{"amount":1,"type":"lanterncyan"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.lanternpink",
+		"requires" : [
+			{"amount":1,"type":"lanternyellow"},
+			{"amount":1,"type":"NACH0.Types.PinkPaint"}
+		],
+		"results" : [
+			{"amount":1,"type":"lanternpink"},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "pipliz.dyer.cobblestonered",
+		"requires" : [
+			{"amount":5,"type":"cobblestonegrey"},
+			{"amount":1,"type":"NACH0.Types.RedPaint"}
+		],
+		"results" : [
+			{
+				"amount":5,
+				"type":"cobblestonered"
+			},
+			{
+				"isOptional": true,
+				"type": "bucketempty"
+			}
+		],
+		"requiredResearchCount": 200
+	}
+]

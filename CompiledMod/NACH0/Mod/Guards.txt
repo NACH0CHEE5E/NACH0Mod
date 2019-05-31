@@ -1,0 +1,69 @@
+Sling
+	Dmg = 50
+	Cooldown = 3
+	Dp/s = 16.66667
+	Range = 12
+	
+Slingshot
+	Dmg = 50
+	Cooldown = 2.5
+	Dp/s = 20
+	Range = 14
+	
+Bow
+	Dmg = 100
+	Cooldown = 5
+	Dp/s = 20
+	Range = 20
+	
+Compound Bow
+	Dmg = 100
+	Cooldown = 5
+	Dp/s = 20
+	Range = 25
+
+Sword Guard
+	Dmg = 1000
+	Cooldown = 1.5
+	Dp/s = 66.66667
+	Range = 1.5
+	
+Crossbow
+	Dmg = 300
+	Cooldown = 8
+	Dp/s = 37.5
+	Range = 25
+	
+Matchlock Gun
+	Dmg = 500
+	Cooldown = 12
+	Dp/s = 41.66667
+	Range = 30
+	
+Ballista
+	Dmg = 1000
+	Cooldown = 20
+	Dp/s = 50
+	Range = 150
+
+
+
+
+
+
+
+
+
+
+
+DoubleSlinger
+	Dmg = 50
+	Cooldown = 1.5
+	Dp/s = 33.33333
+	Range = 6
+	
+DoubleSlinger V2
+	Dmg = 35
+	Cooldown = 1.85
+	Dp/s = 18.91892
+	Range = 10
