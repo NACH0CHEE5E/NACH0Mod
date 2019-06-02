@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"namepretty": "NACH0's Mod",
 	"dllpath" : "NACH0.dll",
-	"enabled": false,
+	"enabled": true,
 	"marksgamemodded": true,
 	"compatibleversions": [
 		"0.7.0"
