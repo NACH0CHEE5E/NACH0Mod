@@ -67,7 +67,7 @@
 			},
 			{
 				"type": "coppertools",
-				"amount": 20
+				"amount": 5
 			}
 		],
 		"key" : "NACH0.Research.ToolCrafter",
@@ -392,7 +392,7 @@
 		]
 	},
 	{
-		"icon" : "./textures/icons/BasicStoneMason.png",
+		"icon": "./../../../../textures/icons/stonemasonworkbench.png",
 		"iterationCount" : 3,
 		"iterationRequirements" : [
 			{

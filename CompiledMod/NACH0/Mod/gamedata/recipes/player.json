@@ -173,5 +173,13 @@
 		"results" : [
 			{"type":"stonemasonworkbench"}
 		]
+	},
+	{
+		"name" : "NACH0.player.ItemPlacer",
+		"requires" : [
+		],
+		"results" : [
+			{"type":"NACH0.Types.ItemPlacer"}
+		]
 	}
 ]

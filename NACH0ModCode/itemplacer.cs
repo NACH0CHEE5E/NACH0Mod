@@ -40,7 +40,7 @@ namespace NACH0.UI
                             ServerManager.TryChangeBlock(voxelData.PositionBuild, ItemTypes.GetType(commandUIInteraction.item_placer_dict[player]).ItemIndex, player);
                             //ServerManager.TryChangeBlock(voxelData.PositionBuild, ItemTypes.GetType("NACH0.Types.Slingshot.Guard.Night").ItemIndex);
 
-                            Chat.Send(player, "<color=blue>Placed: " + commandUIInteraction.item_placer_dict[player] + "</color>");
+                            //Chat.Send(player, "<color=blue>Placed: " + commandUIInteraction.item_placer_dict[player] + "</color>");
                         }
                     }
                 }

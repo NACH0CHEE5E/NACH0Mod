@@ -91,28 +91,6 @@
 	},
 	{
 		"dependencies" : [
-			"pipliz.baseresearch.tailorshop",
-			"pipliz.baseresearch.bronzeanvil",
-			"pipliz.baseresearch.olivefarmer"
-		],
-		"icon" : "./../../../../textures/icons/technologisttable.png",
-		"iterationCount" : 3,
-		"iterationRequirements" : [
-			{"type":"coatedplanks"},
-			{"amount":2,"type":"bronzeplate"},
-			{"type":"coppernails"}
-		],
-		"key" : "pipliz.baseresearch.technologisttable",
-		"unlocksRecipeGroups" : [
-			"pipliz.technologist"
-		],
-		"unlocksRecipes" : [
-			"pipliz.crafter.technologisttable",
-			"pipliz.player.technologisttable"
-		]
-	},
-	{
-		"dependencies" : [
 			"pipliz.baseresearch.bronzeanvil",
 			"pipliz.baseresearch.flaxfarming",
 			"pipliz.baseresearch.chickenfarmer",
@@ -137,21 +115,40 @@
 	},
 	{
 		"dependencies" : [
-			"pipliz.baseresearch.chickenfarmer",
-			"pipliz.baseresearch.cook"
+			"pipliz.baseresearch.sciencebagbasic"
 		],
-		"icon" : "./../../../../textures/icons/writerdesk.png",
-		"iterationCount" : 30,
+		"icon" : "./textures/icons/StoneMason.png",
+		"iterationCount" : 10,
 		"iterationRequirements" : [
-			{"type":"chickenskin"}
+			{"type":"sciencebagbasic"}
 		],
-		"key" : "pipliz.baseresearch.writer",
+		"key" : "pipliz.baseresearch.stonemasonworkbench",
 		"unlocksRecipeGroups" : [
-			"pipliz.writer"
+			"pipliz.stonemason"
 		],
 		"unlocksRecipes" : [
-			"pipliz.crafter.ink",
-			"pipliz.crafter.writerdesk"
+			"pipliz.crafter.stonemasonworkbench",
+			"pipliz.player.stonemasonworkbench"
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.BasicStoneMason"
+		],
+		"icon" : "./../../../../textures/icons/bronzeanvil.png",
+		"iterationCount" : 3,
+		"iterationRequirements" : [
+			{"type":"bronzeingot"},
+			{"type":"coppertools"},
+			{"type":"coppernails"}
+		],
+		"key" : "pipliz.baseresearch.bronzeanvil",
+		"unlocksRecipeGroups" : [
+			"pipliz.metalsmithjob"
+		],
+		"unlocksRecipes" : [
+			"pipliz.crafter.bronzeanvil",
+			"pipliz.player.bronzeanvil"
 		]
 	}
 ]

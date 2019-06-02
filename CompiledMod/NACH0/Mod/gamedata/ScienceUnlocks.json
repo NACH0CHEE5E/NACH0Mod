@@ -58,7 +58,11 @@
 		"key" : "pipliz.baseresearch.fineryforge",
 		"unlocksRecipes" : [
 			"NACH0.metalsmith.SteelBlock1",
-			"NACH0.metalsmith.GoldBlock1"
+			"NACH0.metalsmith.GoldBlock1",
+			"NACH0.IronAnvilWorker.SteelBlock1",
+			"NACH0.IronAnvilWorker.GoldBlock1",
+			"NACH0.SteelAnvilWorker.SteelBlock1",
+			"NACH0.SteelAnvilWorker.GoldBlock1"
 		]
 	},
 	{

@@ -148,7 +148,7 @@
 	},
 	{
 		"blockType" : "NACH0.Types.CompoundBow.Guard.Night",
-		"cooldownShot" : 5,
+		"cooldownShot" : 4,
 		"damage" : 100,
 		"jobType" : "guard",
 		"npcType" : "NACH0.Jobs.Guard.CompoundBow.Night",
@@ -165,7 +165,7 @@
 	},
 	{
 		"blockType" : "NACH0.Types.CompoundBow.Guard.Day",
-		"cooldownShot" : 5,
+		"cooldownShot" : 4,
 		"damage" : 100,
 		"jobType" : "guard",
 		"npcType" : "NACH0.Jobs.Guard.CompoundBow.Day",

@@ -13,6 +13,19 @@ using System.IO;
 
 namespace NACH0.UI
 {
+    /*[ModLoader.ModManager]
+    public class Warning
+    {
+        //Check every <increment> (miliseconds) the amount of the types observed
+        [ModLoader.ModCallback(ModLoader.EModCallbackType.OnUpdate, "NACH0.UI.ItemPlacerCheck")]
+        public static void OnUpdate()
+        {
+            if (warehouse.Items.GetValueOrDefault(itemIndex, 0) < amount)
+            {
+                Chat.Send(player, "<color=red>Warning: You need more: " + ItemTypes.IndexLookup.GetName(itemIndex) + ", current amount: " + warehouse.Items.GetValueOrDefault(itemIndex, 0) + "</color>");
+            }
+        }
+    }*/
 
     //open ui with command
     [ChatCommandAutoLoader]
@@ -130,11 +143,31 @@ namespace NACH0.UI
                 if (commandUIInteraction.item_placer_option_dict[player].Equals("Guards"))
                 {
                     commandUI.Items.Add(GuardsHeaderHorizontalRow);
-                    commandUI.Items.Add(SlingshotHorizontalRow);
-                    commandUI.Items.Add(compoundBowHorizontalRow);
-                    commandUI.Items.Add(swordHorizontalRow);
-                    commandUI.Items.Add(sniperHorizontalRow);
-                    commandUI.Items.Add(ballistaHorizontalRow);
+                    if (player == null && player.ConnectionState != Players.EConnectionState.Connected || player.ActiveColony == null || player.ActiveColony.ScienceData == null)
+                        return;
+
+                    Science.ScienceKey SlingShotScienceKey = new Science.ScienceKey("NACH0.Research.Slingshot");
+                    Science.ScienceKey CompoundBowScienceKey = new Science.ScienceKey("NACH0.Research.CompoundBow");
+                    Science.ScienceKey SwordScienceKey = new Science.ScienceKey("NACH0.Research.SwordGuard");
+                    Science.ScienceKey SniperScienceKey = new Science.ScienceKey("NACH0.Research.Sniper");
+                    Science.ScienceKey BallistaScienceKey = new Science.ScienceKey("NACH0.Research.Ballista");
+
+                    if (SlingShotScienceKey.IsCompleted(player.ActiveColony.ScienceData))
+                        commandUI.Items.Add(SlingshotHorizontalRow);
+                    if (CompoundBowScienceKey.IsCompleted(player.ActiveColony.ScienceData))
+                        commandUI.Items.Add(compoundBowHorizontalRow);
+                    if (SwordScienceKey.IsCompleted(player.ActiveColony.ScienceData))
+                        commandUI.Items.Add(swordHorizontalRow);
+                    if (SniperScienceKey.IsCompleted(player.ActiveColony.ScienceData))
+                        commandUI.Items.Add(sniperHorizontalRow);
+                    if (BallistaScienceKey.IsCompleted(player.ActiveColony.ScienceData))
+                        commandUI.Items.Add(ballistaHorizontalRow);
+
+                    //commandUI.Items.Add(SlingshotHorizontalRow);
+                    //commandUI.Items.Add(compoundBowHorizontalRow);
+                    //commandUI.Items.Add(swordHorizontalRow);
+                    //commandUI.Items.Add(sniperHorizontalRow);
+                    //commandUI.Items.Add(ballistaHorizontalRow);
                 } else
                 {
                     commandUI.Items.Add(GuardsButton);
