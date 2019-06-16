@@ -1,0 +1,9 @@
+[
+	{
+		"blockType" : "NACH0.Types.AlchemistBench",
+		"cooldown" : 16.5,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 5,
+		"npcType" : "NACH0.Jobs.Alchemist"
+	}
+]

@@ -1,0 +1,110 @@
+[
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.SteelAnvilWorker.GoldBlock1",
+		"requires" : [
+			{
+				"amount":6,
+				"type":"goldingot"
+			}
+		],
+		"results" : [
+			{
+				"amount":1,
+				"type":"NACH0.Types.GoldBlock1"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.SteelAnvilWorker.SteelBlock1",
+		"requires" : [
+			{
+				"amount":6,
+				"type":"steelingot"
+			}
+		],
+		"results" : [
+			{
+				"amount":1,
+				"type":"NACH0.Types.SteelBlock1"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.SteelAnvilWorker.CrystalBlock1",
+		"requires" : [
+			{
+				"amount":6,
+				"type":"crystal"
+			}
+		],
+		"results" : [
+			{
+				"amount":1,
+				"type":"NACH0.Types.CrystalBlock1"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.SteelAnvilWorker.IronBlock1",
+		"requires" : [
+			{
+				"amount":6,
+				"type":"ironingot"
+			}
+		],
+		"results" : [
+			{
+				"amount":1,
+				"type":"NACH0.Types.IronBlock1"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.SteelAnvilWorker.Freezer",
+		"requires" : [
+			{
+				"type":"ironblock"
+			},
+			{
+				"type":"ironingot"
+			},
+			{
+				"amount":10,
+				"type":"bronzeplate"
+			}
+		],
+		"results" : [
+			{
+				"amount":1,
+				"type":"NACH0.Types.Freezer"
+			}
+		]
+	},
+	{
+		"defaultLimit" : 0,
+		"name" : "NACH0.SteelAnvilWorker.PaintMixer",
+		"requires" : [
+			{
+				"type":"ironblock"
+			},
+			{
+				"type":"ironingot"
+			},
+			{
+				"amount":10,
+				"type":"bronzeplate"
+			}
+		],
+		"results" : [
+			{
+				"amount":1,
+				"type":"NACH0.Types.PaintMixer"
+			}
+		]
+	}
+]

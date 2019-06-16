@@ -1,0 +1,81 @@
+[
+	{
+		"blockType" : "NACH0.Types.CopperWorker",
+		"cooldown" : 10,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 10,
+		"npcType" : "NACH0.Jobs.CopperWorker"
+	},
+	{
+		"blockType" : "NACH0.Types.BrickMaker",
+		"cooldown" : 9,
+		"jobType" : "craftingblockrotatedlit",
+		"maxCraftsPerHaul" : 3,
+		"npcType" : "NACH0.Jobs.BrickMaker"
+	},
+	{
+		"blockType" : "NACH0.Types.Fletcher",
+		"cooldown" : 5,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 12,
+		"npcType" : "NACH0.Jobs.Fletcher"
+	},
+	{
+		"blockType" : "NACH0.Types.ToolCrafter",
+		"cooldown" : 10,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 9,
+		"npcType" : "NACH0.Jobs.ToolCrafter"
+	},
+	{
+		"blockType" : "NACH0.Types.OrganicTrader",
+		"cooldown" : 12,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 5,
+		"npcType" : "NACH0.Jobs.OrganicTrader"
+	},
+	{
+		"blockType" : "NACH0.Types.Freezer",
+		"cooldown" : 15,
+		"jobType" : "craftingblockrotated",
+		"maxCraftsPerHaul" : 2,
+		"npcType" : "NACH0.Jobs.Freezer"
+	},
+	{
+		"blockType" : "NACH0.Types.PaintMixer",
+		"cooldown" : 7,
+		"jobType" : "craftingblockrotated",
+		"maxCraftsPerHaul" : 10,
+		"npcType" : "NACH0.Jobs.PaintMixer"
+	},
+	{
+		"blockType" : "NACH0.Types.PaintersTable",
+		"cooldown" : 7,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 10,
+		"npcType" : "NACH0.Jobs.Painter"
+	},
+	{
+		"blockType" : "NACH0.Types.IronAnvil",
+		"cooldown" : 3.75,
+		"jobType" : "craftingblockrotated",
+		"maxCraftsPerHaul" : 4,
+		"npcType" : "NACH0.Jobs.IronAnvilWorker",
+		"onCraftedAudio" : "anvil"
+	},
+	{
+		"blockType" : "NACH0.Types.SteelAnvil",
+		"cooldown" : 2.5,
+		"jobType" : "craftingblockrotated",
+		"maxCraftsPerHaul" : 5,
+		"npcType" : "NACH0.Jobs.SteelAnvilWorker",
+		"onCraftedAudio" : "anvil"
+	},
+	{
+		"blockType" : "NACH0.Types.BasicStoneMason",
+		"cooldown" : 7,
+		"jobType" : "craftingblock",
+		"maxCraftsPerHaul" : 3,
+		"npcType" : "NACH0.Jobs.BasicStoneMason"
+	}
+]

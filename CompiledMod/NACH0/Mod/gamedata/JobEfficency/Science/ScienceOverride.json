@@ -1,0 +1,61 @@
+[
+	{
+		"dependencies" : [
+			"Pandaros.Settlers.pipliz.merchant5",
+			"Pandaros.Settlers.pipliz.tailor5",
+			"Pandaros.Settlers.pipliz.bloomeryjob5",
+			"Pandaros.Settlers.pipliz.fineryforgejob5",
+			"Pandaros.Settlers.pipliz.smelter5",
+			"Pandaros.Settlers.pipliz.grinder5",
+			"Pandaros.Settlers.pipliz.gunsmithjob5",
+			"Pandaros.Settlers.pipliz.kilnjob5",
+			"Pandaros.Settlers.pipliz.metalsmithjob5",
+			"Pandaros.Settlers.pipliz.minter5",
+			"Pandaros.Settlers.pipliz.baker5",
+			"Pandaros.Settlers.pipliz.woodcutter5",
+			"Pandaros.Settlers.pipliz.crafter5",
+			"Pandaros.Settlers.NACH0.Jobs.CopperWorker5",
+			"Pandaros.Settlers.NACH0.Jobs.BrickMaker5",
+			"Pandaros.Settlers.NACH0.Jobs.Fletcher5",
+			"Pandaros.Settlers.NACH0.Jobs.ToolCrafter5",
+			"Pandaros.Settlers.NACH0.Jobs.Freezer2",
+			"Pandaros.Settlers.NACH0.Jobs.PaintMixer3",
+			"Pandaros.Settlers.NACH0.Jobs.Painter2",
+			"Pandaros.Settlers.pipliz.stonemason2",
+			"Pandaros.Settlers.pipliz.dyer2"
+		],
+		"icon" : "./../../../../../Pandaros/Settlers/icons/MasterOfAll1.png",
+		"iterationCount" : 30,
+		"iterationRequirements" : [
+			{
+				"type":"sciencebagbasic",
+				"amount": 16
+			},
+			{
+				"type":"sciencebaglife",
+				"amount": 16
+			},
+			{
+				"type":"sciencebagcolony",
+				"amount": 16
+			},
+			{
+				"type":"sciencebagmilitary",
+				"amount": 16
+			},
+			{
+				"type":"sciencebagadvanced",
+				"amount": 16
+			},
+			{
+				"type":"goldcoin",
+				"amount": 160
+			},
+			{
+				"type":"bronzecoin",
+				"amount": 160
+			}
+		],
+		"key" : "Pandaros.Settlers.MasterOfAll1"
+	}
+]

@@ -1,0 +1,108 @@
+[
+	{
+		"key" : "pipliz.baseresearch.crossbowbolt",
+		"unlocksRecipes" : [
+			"NACH0.Fletcher.crossbowbolt",
+			"NACH0.IronAnvilWorker.crossbowbolt",
+			"NACH0.SteelAnvilWorker.crossbowbolt"
+		]
+	},
+	{
+		"key" : "pipliz.baseresearch.bloomery",
+		"unlocksRecipes" : [
+			"NACH0.ToolCrafter.ironsword",
+			"NACH0.metalsmith.CrystalBlock1",
+			"NACH0.metalsmith.IronBlock1",
+			"NACH0.IronAnvilWorker.ironrivets",
+			"NACH0.IronAnvilWorker.ironwrought",
+			"NACH0.IronAnvilWorker.ironsword",
+			"NACH0.IronAnvilWorker.ironblock",
+			"NACH0.SteelAnvilWorker.ironrivets",
+			"NACH0.SteelAnvilWorker.ironwrought",
+			"NACH0.SteelAnvilWorker.ironsword",
+			"NACH0.SteelAnvilWorker.ironblock"
+		]
+	},
+	{
+		"key" : "pipliz.baseresearch.crossbow",
+		"unlocksRecipes" : [
+			"NACH0.ToolCrafter.crossbow",
+			"NACH0.IronAnvilWorker.crossbow",
+			"NACH0.SteelAnvilWorker.crossbow"
+		]
+	},
+	{
+		"key" : "pipliz.baseresearch.bronzeminting",
+		"unlocksRecipes" : [
+			"NACH0.crafter.Log1Tipped",
+			"NACH0.crafter.Log2Tipped",
+			"NACH0.crafter.Log3Tipped",
+			"NACH0.crafter.Log4Tipped",
+			"NACH0.crafter.Log5Tipped",
+			"NACH0.crafter.Log6Tipped",
+			"NACH0.woodcutter.Planks1",
+			"NACH0.woodcutter.Planks2",
+			"NACH0.woodcutter.Planks3",
+			"NACH0.woodcutter.Planks4",
+			"NACH0.woodcutter.Planks5",
+			"NACH0.woodcutter.Planks6"
+		]
+	},
+	{
+		"key" : "pipliz.baseresearch.fineryforge",
+		"unlocksRecipes" : [
+			"NACH0.metalsmith.SteelBlock1",
+			"NACH0.metalsmith.GoldBlock1",
+			"NACH0.IronAnvilWorker.SteelBlock1",
+			"NACH0.IronAnvilWorker.GoldBlock1",
+			"NACH0.SteelAnvilWorker.SteelBlock1",
+			"NACH0.SteelAnvilWorker.GoldBlock1"
+		]
+	},
+	{
+		"key" : "pipliz.baseresearch.diamondprocessing",
+		"unlocksRecipes" : [
+			"NACH0.IronAnvilWorker.diamondnecklace",
+			"NACH0.SteelAnvilWorker.diamondnecklace"
+		]
+	},
+	{
+		"key" : "pipliz.baseresearch.waterpump",
+		"unlocksRecipes" : [
+			"NACH0.IronAnvilWorker.waterpump",
+			"NACH0.SteelAnvilWorker.waterpump"
+		]
+	},
+	{
+		"key" : "pipliz.baseresearch.chickenfarmer",
+		"unlocksRecipes" : [
+			"NACH0.IronAnvilWorker.bronzearrow",
+			"NACH0.SteelAnvilWorker.bronzearrow"
+		]
+	},
+	{
+		"key" : "pipliz.baseresearch.printingpress",
+		"unlocksRecipes" : [
+			"NACH0.IronAnvilWorker.printingpress",
+			"NACH0.SteelAnvilWorker.printingpress"
+		]
+	},
+	{
+		"key" : "pipliz.baseresearch.fineryforge",
+		"unlocksRecipes" : [
+			"NACH0.IronAnvilWorker.fineryforge",
+			"NACH0.IronAnvilWorker.jewelry",
+			"NACH0.IronAnvilWorker.steelparts",
+			"NACH0.SteelAnvilWorker.fineryforge",
+			"NACH0.SteelAnvilWorker.jewelry",
+			"NACH0.SteelAnvilWorker.steelparts"
+		]
+	},
+	{
+		"key" : "pipliz.baseresearch.lantern",
+		"unlocksRecipes" : [
+			"NACH0.IronAnvilWorker.lanternyellow",
+			"NACH0.SteelAnvilWorker.lanternyellow"
+		]
+	}
+]

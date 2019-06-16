@@ -18,8 +18,8 @@ Bow
 	
 Compound Bow
 	Dmg = 100
-	Cooldown = 5
-	Dp/s = 20
+	Cooldown = 4
+	Dp/s = 25
 	Range = 25
 
 Sword Guard
@@ -40,30 +40,14 @@ Matchlock Gun
 	Dp/s = 41.66667
 	Range = 30
 	
+Sniper Matchlock
+	Dmg = 500
+	Cooldown = 12
+	Dp/s = 41.66667
+	Range = 45
+	
 Ballista
 	Dmg = 1000
 	Cooldown = 20
 	Dp/s = 50
 	Range = 150
-
-
-
-
-
-
-
-
-
-
-
-DoubleSlinger
-	Dmg = 50
-	Cooldown = 1.5
-	Dp/s = 33.33333
-	Range = 6
-	
-DoubleSlinger V2
-	Dmg = 35
-	Cooldown = 1.85
-	Dp/s = 18.91892
-	Range = 10

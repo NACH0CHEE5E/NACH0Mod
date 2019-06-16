@@ -90,6 +90,8 @@
 	},
 	"clay": {
 		"categories": [
+			"ingredient",
+			"raw",
 			"decorative",
 			"clay"
 		],
@@ -216,6 +218,7 @@
 	},
 	"logtaiga": {
 		"categories": [
+			"essential",
 			"decorative",
 			"log"
 		],
@@ -224,6 +227,7 @@
 	},
 	"logtemperate": {
 		"categories": [
+			"essential",
 			"decorative",
 			"log"
 		],
@@ -240,6 +244,7 @@
 	},
 	"planks": {
 		"categories": [
+			"essential",
 			"decorative",
 			"planks"
 		],

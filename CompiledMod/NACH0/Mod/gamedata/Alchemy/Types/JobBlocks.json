@@ -1,0 +1,13 @@
+{
+	"NACH0.Types.AlchemistBench": {
+		"categories": [
+			"job",
+			"NACH0"
+		],
+		"icon": "./../../textures/icons/AlchemistBench.png",
+		"onPlaceAudio": "stonePlace",
+		"onRemoveAudio": "stoneDelete",
+		"sideall": "infinitestone",
+		"sidey+": "NACH0.Textures.AlchemistBench"
+	}
+}

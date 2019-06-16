@@ -1,0 +1,28 @@
+[
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.sciencebagadvanced"
+		],
+		"icon" : "./../../textures/icons/AlchemistBench.png",
+		"iterationCount" : 50,
+		"iterationRequirements" : [
+			{
+				"type":"sciencebagbasic",
+				"amount": 5
+			},
+			{
+				"type": "sciencebagadvanced",
+				"amount": 3,
+			},
+			{
+				"type":"goldore",
+				"amount": 5
+			}
+		],
+		"key" : "NACH0.Research.AlchemistBench",
+		"unlocksRecipes" : [
+			"NACH0.crafter.AlchemistBench",
+			"NACH0.Player.AlchemistBench"
+		]
+	}
+]

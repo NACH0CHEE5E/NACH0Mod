@@ -1,0 +1,86 @@
+[
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"name": "NACH0.Alchemist.UnknownSubstance.1",
+		"requires": [
+			{
+				"amount": 15,
+				"type": "goldore"
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.UnknownSubstance.1"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"name": "NACH0.Alchemist.UnknownSubstance.2",
+		"requires": [
+			{
+				"amount": 15,
+				"type": "goldore"
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.UnknownSubstance.2"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"name": "NACH0.Alchemist.UnknownSubstance.3",
+		"requires": [
+			{
+				"amount": 15,
+				"type": "goldore"
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.UnknownSubstance.3"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"name": "NACH0.Alchemist.UnknownSubstance.4",
+		"requires": [
+			{
+				"amount": 15,
+				"type": "goldore"
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.UnknownSubstance.4"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"name": "NACH0.Alchemist.UnknownSubstance.5",
+		"requires": [
+			{
+				"amount": 15,
+				"type": "goldore"
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.UnknownSubstance.5"
+		}]
+	},
+	{
+		"defaultLimit": 0,
+		"defaultPriority": -100,
+		"name": "NACH0.Alchemist.UnknownSubstance.6",
+		"requires": [
+			{
+				"amount": 15,
+				"type": "goldore"
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.UnknownSubstance.6"
+		}]
+	}
+]

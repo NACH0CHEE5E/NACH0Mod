@@ -1,0 +1,90 @@
+[
+	{
+		"data" : {
+			"maskColor1" : "#d67f0e"
+		},
+		"keyName" : "NACH0.Jobs.CopperWorker",
+		"npcType" : "worker",
+		"printName" : "Copper Worker"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#8c5815"
+		},
+		"keyName" : "NACH0.Jobs.BrickMaker",
+		"npcType" : "worker",
+		"printName" : "Brick Maker"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#604a00"
+		},
+		"keyName" : "NACH0.Jobs.Fletcher",
+		"npcType" : "worker",
+		"printName" : "Fletcher"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#332700"
+		},
+		"keyName" : "NACH0.Jobs.ToolCrafter",
+		"npcType" : "worker",
+		"printName" : "Tool Crafter"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#000000"
+		},
+		"keyName" : "NACH0.Jobs.OrganicTrader",
+		"npcType" : "worker",
+		"printName" : "Organic Trader"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#261789"
+		},
+		"keyName" : "NACH0.Jobs.Freezer",
+		"npcType" : "worker",
+		"printName" : "Freezer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#0471d1"
+		},
+		"keyName" : "NACH0.Jobs.PaintMixer",
+		"npcType" : "worker",
+		"printName" : "Paint Mixer"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#04a067"
+		},
+		"keyName" : "NACH0.Jobs.Painter",
+		"npcType" : "worker",
+		"printName" : "Painter"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#353535"
+		},
+		"keyName" : "NACH0.Jobs.BasicStoneMason",
+		"npcType" : "worker",
+		"printName" : "Basic Stone Mason"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#d8cac0"
+		},
+		"keyName" : "NACH0.Jobs.IronAnvilWorker",
+		"npcType" : "worker",
+		"printName" : "Metal smith"
+	},
+	{
+		"data" : {
+			"maskColor1" : "#91837d"
+		},
+		"keyName" : "NACH0.Jobs.SteelAnvilWorker",
+		"npcType" : "worker",
+		"printName" : "Metal smith"
+	}
+]

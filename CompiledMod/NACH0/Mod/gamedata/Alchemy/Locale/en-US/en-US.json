@@ -1,0 +1,18 @@
+{
+	"types": {
+		"NACH0.Types.AlchemistBench": "Alchemist Bench"
+	},
+	"typeuses": {
+		"NACH0.Types.AlchemistBench": "Alchemist Bench"
+	},
+	"sentences": {
+		"NACH0": {
+			"Research": {
+				"AlchemistBench": {
+					"description": "Unlocks the alchemist bench.",
+					"name": "Alchemist Bench"
+				}
+			}
+		}
+	}
+}

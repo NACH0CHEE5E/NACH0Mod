@@ -7,7 +7,7 @@ organic trader
 MagmaBlock1
 DiamondBlock1
 EmeraldBlock1
-FireBlock1
+CheeseBlock1
 SapphireBlock1
 RubyBlock1
 

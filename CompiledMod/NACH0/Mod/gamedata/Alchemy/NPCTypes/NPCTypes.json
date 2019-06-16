@@ -1,0 +1,10 @@
+[
+	{
+		"data" : {
+			"maskColor1" : "#7a5876"
+		},
+		"keyName" : "NACH0.Jobs.Alchemist",
+		"npcType" : "worker",
+		"printName" : "Alchemist"
+	}
+]

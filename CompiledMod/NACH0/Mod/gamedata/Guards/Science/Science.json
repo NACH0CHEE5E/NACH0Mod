@@ -1,0 +1,139 @@
+[
+	{
+		"dependencies" : [
+			"Pandaros.Settlers.pipliz.guardslinger2"
+		],
+		"icon" : "./../../textures/icons/Slingshot.png",
+		"iterationCount" : 5,
+		"iterationRequirements" : [
+			{
+				"type":"sling",
+				"amount": 3
+			},
+			{
+				"type": "slingbullet",
+				"amount": 10,
+			}
+		],
+		"key" : "NACH0.Research.Slingshot",
+		"unlocksRecipes" : [
+			"NACH0.crafter.Slingshot",
+			"NACH0.ToolCrafter.Slingshot"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.sciencebagadvanced",
+			"pipliz.baseresearch.crossbow",
+			"NACH0.Research.Fletcher"
+		],
+		"icon" : "./../../textures/icons/Ballista.png",
+		"iterationCount" : 50,
+		"iterationRequirements" : [
+			{
+				"type":"sciencebagmilitary",
+				"amount": 2
+			},
+			{
+				"type": "sciencebagadvanced",
+				"amount": 1
+			},
+			{
+				"type":"crossbowbolt",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.Ballista",
+		"unlocksRecipes" : [
+			"NACH0.Fletcher.BallistaBolt",
+			"NACH0.ToolCrafter.Ballista"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.bloomery",
+			"pipliz.baseresearch.archery",
+			"Pandaros.Settlers.pipliz.guardbow3"
+		],
+		"icon" : "./../../textures/icons/CompoundBow.png",
+		"iterationCount" : 12,
+		"iterationRequirements" : [
+			{
+				"type":"bow",
+				"amount": 1
+			},
+			{
+				"type": "bronzearrow",
+				"amount": 3
+			},
+			{
+				"type":"sciencebagbasic",
+				"amount": 1
+			}
+		],
+		"key" : "NACH0.Research.CompoundBow",
+		"unlocksRecipes" : [
+			"NACH0.metalsmith.CompoundBow",
+			"NACH0.ToolCrafter.CompoundBow",
+			"NACH0.SteelAnvilWorker.CompoundBow",
+			"NACH0.IronAnvilWorker.CompoundBow"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.matchlockgun"
+		],
+		"icon" : "./../../textures/icons/Sniper.png",
+		"iterationCount" : 40,
+		"iterationRequirements" : [
+			{
+				"type":"matchlockgun",
+				"amount": 1
+			},
+			{
+				"type": "leadbullet",
+				"amount": 5
+			},
+			{
+				"type":"sciencebagmilitary",
+				"amount": 1
+			}
+		],
+		"key" : "NACH0.Research.Sniper",
+		"unlocksRecipes" : [
+			"NACH0.gunsmith.Sniper"
+		]
+	},
+	{
+		"dependencies" : [
+			"pipliz.baseresearch.bloomery",
+			"pipliz.baseresearch.sciencebagmilitary"
+		],
+		"icon" : "./../../../../../../textures/icons/ironsword.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"ironsword",
+				"amount": 3
+			},
+			{
+				"type": "sciencebagbasic",
+				"amount": 2
+			},
+			{
+				"type":"sciencebagmilitary",
+				"amount": 1
+			},
+			{
+				"type": "undershirt",
+				"amount": 1
+			}
+		],
+		"key" : "NACH0.Research.SwordGuard",
+		"unlocksRecipes" : [
+			"NACH0.metalsmith.IronArmour",
+			"NACH0.IronAnvilWorker.IronArmour",
+			"NACH0.SteelAnvilWorker.IronArmour"
+		]
+	}
+]

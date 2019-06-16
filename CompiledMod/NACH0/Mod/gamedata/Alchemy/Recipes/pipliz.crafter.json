@@ -1,0 +1,19 @@
+[
+	{
+		"defaultLimit": 1,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.AlchemistBench",
+		"requires": [{
+				"amount": 5,
+				"type": "workbench"
+			},
+			{
+				"amount": 15,
+				"type": "goldore"
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.AlchemistBench"
+		}]
+	}
+]

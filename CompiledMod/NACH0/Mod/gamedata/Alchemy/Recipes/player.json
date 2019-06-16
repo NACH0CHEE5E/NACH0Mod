@@ -1,0 +1,15 @@
+[{
+	"name": "NACH0.Player.AlchemistBench",
+	"requires": [{
+			"amount": 5,
+			"type": "workbench"
+		},
+		{
+			"amount": 15,
+			"type": "goldore"
+		}
+	],
+	"results": [{
+		"type": "NACH0.Types.AlchemistBench"
+	}]
+}]

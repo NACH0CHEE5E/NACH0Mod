@@ -1,0 +1,106 @@
+{
+	"types": {
+		"NACH0.Types.UnknownSubstance.1": "An Unknown Substance",
+		"NACH0.Types.UnknownSubstance.2": "An Unknown Substance",
+		"NACH0.Types.UnknownSubstance.3": "An Unknown Substance",
+		"NACH0.Types.UnknownSubstance.4": "An Unknown Substance",
+		"NACH0.Types.UnknownSubstance.5": "An Unknown Substance",
+		"NACH0.Types.UnknownSubstance.6": "An Unknown Substance"
+	},
+	"typeuses": {
+		"NACH0.Types.UnknownSubstance.1": "It's Purple",
+		"NACH0.Types.UnknownSubstance.2": "It's Orange",
+		"NACH0.Types.UnknownSubstance.3": "It's Red",
+		"NACH0.Types.UnknownSubstance.4": "It's Green",
+		"NACH0.Types.UnknownSubstance.5": "It's Gold",
+		"NACH0.Types.UnknownSubstance.6": "It's Yellow"
+	},
+	"sentences": {
+		"NACH0": {
+			"Research": {
+				"AlchemyExperiment": {
+					"1" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"2" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"3" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"4" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"5" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"6" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"7" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"8" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"9" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"10" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"11" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"12" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"13" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"14" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"15" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"16" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"17" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"18" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"19" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					},
+					"20" : {
+						"description": "",
+						"name": "An Alchemy Experiment"
+					}
+				}
+			}
+		}
+	}
+}

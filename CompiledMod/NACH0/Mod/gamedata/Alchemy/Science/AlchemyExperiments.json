@@ -1,0 +1,327 @@
+[
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.1",
+		"unlocksRecipes" : [
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.2",
+		"unlocksRecipes" : [
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.3",
+		"unlocksRecipes" : [
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.4",
+		"unlocksRecipes" : [
+			"NACH0.Alchemist.UnknownSubstance.1"
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.5",
+		"unlocksRecipes" : [
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.6",
+		"unlocksRecipes" : [
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.7",
+		"unlocksRecipes" : [
+			"NACH0.Alchemist.UnknownSubstance.2"
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.8",
+		"unlocksRecipes" : [
+			"NACH0.Alchemist.UnknownSubstance.3"
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.9",
+		"unlocksRecipes" : [
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.10",
+		"unlocksRecipes" : [
+			"NACH0.Alchemist.UnknownSubstance.5"
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.11",
+		"unlocksRecipes" : [
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.12",
+		"unlocksRecipes" : [
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.13",
+		"unlocksRecipes" : [
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.14",
+		"unlocksRecipes" : [
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.15",
+		"unlocksRecipes" : [
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.16",
+		"unlocksRecipes" : [
+			"NACH0.Alchemist.UnknownSubstance.6"
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.17",
+		"unlocksRecipes" : [
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.18",
+		"unlocksRecipes" : [
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.19",
+		"unlocksRecipes" : [
+		]
+	},
+	{
+		"dependencies" : [
+			"NACH0.Research.AlchemistBench"
+		],
+		"icon": "./../../textures/icons/AlchemyEx.png",
+		"iterationCount" : 15,
+		"iterationRequirements" : [
+			{
+				"type":"goldore",
+				"amount": 15
+			}
+		],
+		"key" : "NACH0.Research.AlchemyExperiment.20",
+		"unlocksRecipes" : [
+		]
+	}
+]

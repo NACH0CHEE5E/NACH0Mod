@@ -78,9 +78,9 @@
 		"albedo": "Farmland1",
 		"normal": "Farmland1"
 	},
-	"NACH0.Textures.FireBlock1": {
-		"albedo": "FireBlock1",
-		"normal": "FireBlock1"
+	"NACH0.Textures.CheeseBlock1": {
+		"albedo": "CheeseBlock1",
+		"normal": "CheeseBlock1"
 	},
 	"NACH0.Textures.Fletcher": {
 		"albedo": "Fletcher"
