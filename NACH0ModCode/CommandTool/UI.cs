@@ -5,11 +5,14 @@ using NetworkUI;
 using NetworkUI.Items;
 using Science;
 using System;
+using Shared;
 
 using System.Collections.Generic;
 using System.Linq;
 using Pipliz.JSON;
 using System.IO;
+
+using Pandaros.Settlers;
 
 namespace NACH0.CommandTool
 {
@@ -50,23 +53,25 @@ namespace NACH0.CommandTool
     [ModLoader.ModManager]
     public class SendCommandUI
     {
+        static readonly Pandaros.Settlers.localization.LocalizationHelper _localizationHelper = new Pandaros.Settlers.localization.LocalizationHelper(Nach0Config.Name + ".CommandTool");
         public static void SendUI(Players.Player player)
         {
             NetworkMenu commandUI = new NetworkMenu();
             commandUI.Identifier = "CommandToolUI";
+            commandUI.LocalStorage.SetAs("header", _localizationHelper.LocalizeOrDefault("CommandTool", player));
             commandUI.Width = 500;
             commandUI.Height = 600;
 
             
-            ButtonCallback GuardsButton = new ButtonCallback("NACH0.UIButton.Guards", new LabelData("Guards", UnityEngine.Color.black));
+            ButtonCallback GuardsButton = new ButtonCallback("NACH0.UIButton.Guards", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Guards", player), UnityEngine.Color.black));
 
             //commandUI.Items.Add(label);
             //commandUI.Items.Add(new EmptySpace(5));
 
             //if (Res)
             //SlingShot buttons
-            Label Guardslabel = new Label("Guards:");
-            ButtonCallback BackButton = new ButtonCallback("NACH0.UIButton.Back", new LabelData("BACK", UnityEngine.Color.black));
+            Label Guardslabel = new Label(_localizationHelper.LocalizeOrDefault("Label.Guards", player));
+            ButtonCallback BackButton = new ButtonCallback("NACH0.UIButton.Back", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Back", player), UnityEngine.Color.black));
             List<(IItem, int)> GuardsHeaderHorizontalItems = new List<(IItem, int)>();
 
             GuardsHeaderHorizontalItems.Add((Guardslabel, 150));
@@ -75,9 +80,9 @@ namespace NACH0.CommandTool
 
             HorizontalRow GuardsHeaderHorizontalRow = new HorizontalRow(GuardsHeaderHorizontalItems);
 
-            Label slingshotlabel = new Label("Slingshot");
-            ButtonCallback SlingshotButtonNight = new ButtonCallback("NACH0.UIButton.SlingShot.Night", new LabelData("Night", UnityEngine.Color.black));
-            ButtonCallback SlingshotButtonDay = new ButtonCallback("NACH0.UIButton.SlingShot.Day", new LabelData("Day", UnityEngine.Color.black));
+            Label slingshotlabel = new Label(_localizationHelper.LocalizeOrDefault("Label.Slingshot", player));
+            ButtonCallback SlingshotButtonNight = new ButtonCallback("NACH0.UIButton.SlingShot.Night", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Night", player), UnityEngine.Color.black));
+            ButtonCallback SlingshotButtonDay = new ButtonCallback("NACH0.UIButton.SlingShot.Day", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Day", player), UnityEngine.Color.black));
             List<(IItem, int)> SlingshotHorizontalItems = new List<(IItem, int)>();
 
             SlingshotHorizontalItems.Add((slingshotlabel, 150));
@@ -88,9 +93,9 @@ namespace NACH0.CommandTool
             
 
             //CompoundBow buttons
-            Label compoundBowlabel = new Label("Compound Bow");
-            ButtonCallback compoundBowButtonNight = new ButtonCallback("NACH0.UIButton.CompoundBow.Night", new LabelData("Night", UnityEngine.Color.black));
-            ButtonCallback compoundBowButtonDay = new ButtonCallback("NACH0.UIButton.CompoundBow.Day", new LabelData("Day", UnityEngine.Color.black));
+            Label compoundBowlabel = new Label(_localizationHelper.LocalizeOrDefault("Label.CompoundBow", player));
+            ButtonCallback compoundBowButtonNight = new ButtonCallback("NACH0.UIButton.CompoundBow.Night", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Night", player), UnityEngine.Color.black));
+            ButtonCallback compoundBowButtonDay = new ButtonCallback("NACH0.UIButton.CompoundBow.Day", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Day", player), UnityEngine.Color.black));
             List<(IItem, int)> compoundBowHorizontalItems = new List<(IItem, int)>();
 
             compoundBowHorizontalItems.Add((compoundBowlabel, 150));
@@ -101,9 +106,9 @@ namespace NACH0.CommandTool
             
 
             //Sword buttons
-            Label swordlabel = new Label("Sword");
-            ButtonCallback swordButtonNight = new ButtonCallback("NACH0.UIButton.Sword.Night", new LabelData("Night", UnityEngine.Color.black));
-            ButtonCallback swordButtonDay = new ButtonCallback("NACH0.UIButton.Sword.Day", new LabelData("Day", UnityEngine.Color.black));
+            Label swordlabel = new Label(_localizationHelper.LocalizeOrDefault("Label.ShortSword", player));
+            ButtonCallback swordButtonNight = new ButtonCallback("NACH0.UIButton.Sword.Night", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Night", player), UnityEngine.Color.black));
+            ButtonCallback swordButtonDay = new ButtonCallback("NACH0.UIButton.Sword.Day", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Day", player), UnityEngine.Color.black));
             List<(IItem, int)> swordHorizontalItems = new List<(IItem, int)>();
 
             swordHorizontalItems.Add((swordlabel, 150));
@@ -114,9 +119,9 @@ namespace NACH0.CommandTool
             
 
             //Sniper buttons
-            Label sniperlabel = new Label("Sniper");
-            ButtonCallback sniperButtonNight = new ButtonCallback("NACH0.UIButton.Sniper.Night", new LabelData("Night", UnityEngine.Color.black));
-            ButtonCallback sniperButtonDay = new ButtonCallback("NACH0.UIButton.Sniper.Day", new LabelData("Day", UnityEngine.Color.black));
+            Label sniperlabel = new Label(_localizationHelper.LocalizeOrDefault("Label.Sniper", player));
+            ButtonCallback sniperButtonNight = new ButtonCallback("NACH0.UIButton.Sniper.Night", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Night", player), UnityEngine.Color.black));
+            ButtonCallback sniperButtonDay = new ButtonCallback("NACH0.UIButton.Sniper.Day", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Day", player), UnityEngine.Color.black));
             List<(IItem, int)> sniperHorizontalItems = new List<(IItem, int)>();
 
             sniperHorizontalItems.Add((sniperlabel, 150));
@@ -127,9 +132,9 @@ namespace NACH0.CommandTool
             
 
             //Ballista buttons
-            Label ballistalabel = new Label("Ballista");
-            ButtonCallback ballistaButtonNight = new ButtonCallback("NACH0.UIButton.Ballista.Night", new LabelData("Night", UnityEngine.Color.black));
-            ButtonCallback ballistaButtonDay = new ButtonCallback("NACH0.UIButton.Ballista.Day", new LabelData("Day", UnityEngine.Color.black));
+            Label ballistalabel = new Label(_localizationHelper.LocalizeOrDefault("Label.Ballista", player));
+            ButtonCallback ballistaButtonNight = new ButtonCallback("NACH0.UIButton.Ballista.Night", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Night", player), UnityEngine.Color.black));
+            ButtonCallback ballistaButtonDay = new ButtonCallback("NACH0.UIButton.Ballista.Day", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Day", player), UnityEngine.Color.black));
             List<(IItem, int)> ballistaHorizontalItems = new List<(IItem, int)>();
 
             ballistaHorizontalItems.Add((ballistalabel, 150));

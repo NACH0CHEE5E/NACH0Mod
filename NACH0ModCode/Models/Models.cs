@@ -76,6 +76,13 @@ namespace NACH0.Models
             public static readonly ItemId DYEMAGENTA = ItemId.GetItemId("NACH0.Types.MagentaDye");
             public static readonly ItemId PAINTWHITE = ItemId.GetItemId("NACH0.Types.WhitePaint");
             public static readonly ItemId ICE = ItemId.GetItemId("NACH0.Types.Ice1");
+            public static readonly ItemId SLINGSHOT = ItemId.GetItemId("NACH0.Types.Slingshot");
+            public static readonly ItemId COMPOUNDBOW = ItemId.GetItemId("NACH0.Types.CompoundBow");
+            public static readonly ItemId BALLISTABOLT = ItemId.GetItemId("NACH0.Types.BallistaBolt");
+            public static readonly ItemId BALLISTA = ItemId.GetItemId("NACH0.Types.Ballista");
+            public static readonly ItemId IRONARMOUR = ItemId.GetItemId("NACH0.Types.IronArmour");
+            public static readonly ItemId SWORDSHEATH = ItemId.GetItemId("NACH0.Types.SwordSheath");
+            public static readonly ItemId SNIPER = ItemId.GetItemId("NACH0.Types.Sniper");
         }
     }
 }
