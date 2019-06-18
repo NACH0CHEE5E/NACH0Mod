@@ -53,7 +53,9 @@
 			"NACH0.Painter.lanternred",
 			"NACH0.Painter.lanternwhite",
 			"NACH0.Painter.GoldLantern",
-			"NACH0.Painter.LightPinkLantern"
+			"NACH0.Painter.LightPinkLantern",
+			"NACH0.Painter.LightBrownLantern",
+			"NACH0.Painter.DarkRedLantern"
 		]
 	},
 	{
@@ -94,7 +96,7 @@
 			"pipliz.baseresearch.bronzeanvil",
 			"pipliz.baseresearch.flaxfarming",
 			"pipliz.baseresearch.chickenfarmer",
-			"NACH0.Research.Slingshot"
+			"NACH0.Jobs.Guard.Slingshot2"
 		],
 		"icon" : "./../../../../../../textures/icons/bow.png",
 		"iterationCount" : 5,

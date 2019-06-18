@@ -29,6 +29,7 @@
 		],
 		"results": [{
 			"type": "NACH0.Types.IronArmour"
-		}]
+		}],
+		"requiredResearchCount": 200
 	}
 ]

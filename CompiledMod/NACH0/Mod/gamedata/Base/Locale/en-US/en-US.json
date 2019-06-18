@@ -114,6 +114,27 @@
 		"NACH0.Types.PaintMixer": "Makes paint related stuff"
 	},
 	"sentences": {
+		"popup": {
+			"limits": {
+				"stonemason": "Advanced Stonemasonry limits",
+				"NACH0": {
+					"Jobs": {
+						"Freezer": "Freezer limits",
+						"PaintMixer": "Paint Mixer limits",
+						"BrickMaker": "Brick Maker limits",
+						"ToolCrafter": "Tool Crafter limits",
+						"BasicStoneMason": "Stonemasonry limits",
+						"Fletcher": "Fletcher limits",
+						"CopperWorker": "Copper Worker limits",
+						"OrganicTrader": "Organic Trader limits",
+						"PaintersTable": "Painters Table limits",
+						"IronAnvil": "Iron Anvil limits",
+						"SteelAnvil": "Steel Anvil limits",
+						"AlchemistBench": "Alchemist Bench limits"
+					}
+				}
+			}
+		},
 		"pipliz": {
 			"baseresearch": {
 				"dyertable": {

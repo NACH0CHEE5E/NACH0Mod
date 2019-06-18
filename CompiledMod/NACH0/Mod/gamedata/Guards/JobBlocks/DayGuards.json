@@ -81,7 +81,7 @@
 		"onHitAudio" : "fleshHit",
 		"range" : 1.1,
 		"recruitmentItem" : {
-			"type" : "NACH0.Types.IronArmour"
+			"type" : "NACH0.Types.SwordSheath"
 		},
 		"shootRequirements" : [
 			{"type":"ironsword"}

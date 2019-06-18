@@ -1,4 +1,29 @@
 {
+	"sentences": {
+		"Pandaros": {
+			"Settlers": {
+				"NACH0": {
+					"CommandTool": {
+						"CommandTool": "NACH0 Command Tool",
+						"Button": {
+							"Guards": "Guards",
+							"Back": "BACK",
+							"Night": "Night",
+							"Day": "Day"
+						},
+						"Label": {
+							"Guards": "Guards:",
+							"Slingshot": "Slingshot:",
+							"CompoundBow": "Compound Bow:",
+							"ShortSword": "Short Sword",
+							"Sniper": "Matchlock Sniper",
+							"Ballista": "Ballista"
+						}
+					}
+				}
+			}
+		}
+	},
 	"types": {
 		"NACH0.Types.ItemPlacer": "NACH0 Command Tool"
 	}

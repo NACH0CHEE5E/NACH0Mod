@@ -3,7 +3,7 @@
 		"name": "NACH0.Painter.RedSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -25,7 +25,7 @@
 		"name": "NACH0.Painter.GreenSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"type": "NACH0.Types.GreenPaint"
@@ -46,7 +46,7 @@
 		"name": "NACH0.Painter.AquaSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -68,7 +68,7 @@
 		"name": "NACH0.Painter.BlueSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -90,7 +90,7 @@
 		"name": "NACH0.Painter.YellowSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -112,7 +112,7 @@
 		"name": "NACH0.Painter.PinkSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -134,7 +134,7 @@
 		"name": "NACH0.Painter.LightGreySmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -156,7 +156,7 @@
 		"name": "NACH0.Painter.GreySmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -178,7 +178,7 @@
 		"name": "NACH0.Painter.LightBlueSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -200,7 +200,7 @@
 		"name": "NACH0.Painter.DarkBlueSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -222,7 +222,7 @@
 		"name": "NACH0.Painter.PinkSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -244,7 +244,7 @@
 		"name": "NACH0.Painter.GoldSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -266,7 +266,7 @@
 		"name": "NACH0.Painter.BlackSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -288,7 +288,7 @@
 		"name": "NACH0.Painter.BrownSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -310,7 +310,7 @@
 		"name": "NACH0.Painter.DarkGreenSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -332,7 +332,7 @@
 		"name": "NACH0.Painter.MagentaSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -354,7 +354,7 @@
 		"name": "NACH0.Painter.OrangeSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -376,7 +376,7 @@
 		"name": "NACH0.Painter.PurpleSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -398,7 +398,7 @@
 		"name": "NACH0.Painter.LightBrownSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,
@@ -420,7 +420,7 @@
 		"name": "NACH0.Painter.DarkRedSmoothedConcrete",
 		"requires": [{
 				"amount": 5,
-				"type": "NACH0.Types.Concrete"
+				"type": "NACH0.Types.SmoothedConcrete"
 			},
 			{
 				"amount": 1,

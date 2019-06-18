@@ -1,7 +1,7 @@
 [
 	{
 		"dependencies" : [
-			"Pandaros.Settlers.pipliz.guardslinger2"
+			"pipliz.guardslinger2"
 		],
 		"icon" : "./../../textures/icons/Slingshot.png",
 		"iterationCount" : 5,
@@ -53,7 +53,7 @@
 		"dependencies" : [
 			"pipliz.baseresearch.bloomery",
 			"pipliz.baseresearch.archery",
-			"Pandaros.Settlers.pipliz.guardbow3"
+			"pipliz.guardbow3"
 		],
 		"icon" : "./../../textures/icons/CompoundBow.png",
 		"iterationCount" : 12,
@@ -133,7 +133,8 @@
 		"unlocksRecipes" : [
 			"NACH0.metalsmith.IronArmour",
 			"NACH0.IronAnvilWorker.IronArmour",
-			"NACH0.SteelAnvilWorker.IronArmour"
+			"NACH0.SteelAnvilWorker.IronArmour",
+			"NACH0.tailor.SwordSheath"
 		]
 	}
 ]
