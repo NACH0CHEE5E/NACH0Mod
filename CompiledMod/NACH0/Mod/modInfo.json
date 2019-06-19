@@ -19,6 +19,16 @@
 			"relativePath": "gamedata/ToolTypes.json"
 		},
 		{
+			"fileType": "addNewTypes",
+			"index": 15000,
+			"relativePath": "gamedata/Happiness/Types/Toilet.json"
+		},
+		{
+			"relativePath": "gamedata/Happiness/Locale/en-US/en-US.json",
+			"fileType": "addOrOverrideLocalization",
+			"index": 15000
+		},
+		{
 			"fileType": "overrideTypeProperties",
 			"index": 15000,
 			"relativePath": "gamedata/TypeOverrides.json"
@@ -27,6 +37,11 @@
 			"fileType": "addOrReplacePlayerRecipes",
 			"index": 15000,
 			"relativePath": "gamedata/recipes/player.json"
+		},
+		{
+			"fileType": "addOrReplacePlayerRecipes",
+			"index": 15000,
+			"relativePath": "gamedata/Happiness/recipes/player.json"
 		},
 		{
 			"relativePath": "gamedata/locale/en-US.json",
@@ -403,6 +418,12 @@
 			"index": 15000,
 			"npcType": "pipliz.crafter",
 			"relativePath": "gamedata/Base/recipes/pipliz.crafter.json"
+		},
+		{
+			"fileType": "addOrReplaceNPCRecipes",
+			"index": 15000,
+			"npcType": "pipliz.crafter",
+			"relativePath": "gamedata/Happiness/recipes/pipliz.crafter.json"
 		},
 		{
 			"fileType": "addOrReplaceNPCRecipes",

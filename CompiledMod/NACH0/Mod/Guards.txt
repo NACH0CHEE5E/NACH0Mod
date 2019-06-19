@@ -23,9 +23,9 @@ Compound Bow
 	Range = 25
 
 Sword Guard
-	Dmg = 1000
+	Dmg = 1500
 	Cooldown = 1.5
-	Dp/s = 66.66667
+	Dp/s = 1000
 	Range = 1.5
 	
 Crossbow
@@ -47,7 +47,7 @@ Sniper Matchlock
 	Range = 45
 	
 Ballista
-	Dmg = 1000
+	Dmg = 5000
 	Cooldown = 20
-	Dp/s = 50
+	Dp/s = 250
 	Range = 150

@@ -1,0 +1,13 @@
+[{
+		"name": "NACH0.Player.ToiletHole",
+		"requires": [
+			{
+				"type": "dirt",
+				"amount": 1
+			}
+		],
+		"results": [{
+			"type": "NACH0.Types.ToiletHole"
+		}]
+	}
+]

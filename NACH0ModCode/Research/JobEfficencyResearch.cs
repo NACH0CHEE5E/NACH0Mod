@@ -11,8 +11,6 @@ namespace NACH0.Research
     public class Nach0JobResearch
     {
         private const string SCIENCEBAGREQ = ColonyBuiltIn.Research.SCIENCEBAGBASIC;
-        private const int BAG_COST = 2;
-        private const int COIN_COST = 5;
 
         public class CopperWorkerTrainingResearch : IPandaResearch
         {

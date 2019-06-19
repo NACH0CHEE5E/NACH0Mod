@@ -25,7 +25,8 @@
 		"dependencies" : [
 			"pipliz.baseresearch.sciencebagadvanced",
 			"pipliz.baseresearch.crossbow",
-			"NACH0.Research.Fletcher"
+			"NACH0.Research.Fletcher",
+			"pipliz.guardcrossbow2"
 		],
 		"icon" : "./../../textures/icons/Ballista.png",
 		"iterationCount" : 50,
@@ -81,7 +82,8 @@
 	},
 	{
 		"dependencies" : [
-			"pipliz.baseresearch.matchlockgun"
+			"pipliz.baseresearch.matchlockgun",
+			"pipliz.guardmatchlock1"
 		],
 		"icon" : "./../../textures/icons/Sniper.png",
 		"iterationCount" : 40,

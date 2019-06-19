@@ -4,59 +4,58 @@ using Shared;
 using System.Collections.Generic;
 using UnityEngine;
 using Chatting;
+using NACH0.Models;
+using Pandaros.Settlers.Items;
+using static Pandaros.Settlers.Items.StaticItems;
 
 namespace NACH0.CommandTool
 {
     [ModLoader.ModManager]
     public class ItemPlace
     {
-        static string itemName = Nach0Config.TypePrefix + "ItemPlacer";
-        
-        [ModLoader.ModCallback(ModLoader.EModCallbackType.OnPlayerClicked, "NACH0.CommandTool.OnPlayerClick")]
+        [ModLoader.ModCallback(ModLoader.EModCallbackType.OnPlayerClicked, Nach0Config.Name + ".CommandTool.OnPlayerClick")]
         public static void PlaceItem(Players.Player player, PlayerClickedData data)
         {
-           
-            if (data.TypeSelected != ItemTypes.GetType(itemName).ItemIndex)
-            {
-                //Chat.Send(player, "<color=blue>Error 1</color>");
-                return;
-            } else if (data.TypeSelected == ItemTypes.GetType(itemName).ItemIndex)
+            if (data.TypeSelected == Nach0ColonyBuiltIn.ItemTypes.COMMANDTOOL.Id)
             {
                 if (data.ClickType == PlayerClickedData.EClickType.Left)
                 {
-                    //Chat.Send(player, "<color=blue>Error 2</color>");
                     SendCommandUI.SendUI(player);
                 }
                 else if (data.ClickType == PlayerClickedData.EClickType.Right)
                 {
-                    //Chat.Send(player, "<color=blue>Error 3</color>");
                     if (PlayerClickedData.EHitType.Block == data.HitType)
                     {
-                        //Chat.Send(player, "<color=blue>Error 4</color>");
                         PlayerClickedData.VoxelHit voxelData = data.GetVoxelHit();
                         if (voxelData.SideHit == VoxelSide.yPlus)
                         {
                             if (commandUIInteraction.item_placer_dict.ContainsKey(player))
                             {
-                                //Chat.Send(player, "<color=blue>Error 5</color>");
                                 ServerManager.TryChangeBlock(voxelData.PositionBuild, ItemTypes.GetType(commandUIInteraction.item_placer_dict[player]).ItemIndex, player);
                             }
-                            //ServerManager.TryChangeBlock(voxelData.PositionBuild, ItemTypes.GetType("NACH0.Types.Slingshot.Guard.Night").ItemIndex);
-
-                            //Chat.Send(player, "<color=blue>Placed: " + commandUIInteraction.item_placer_dict[player] + "</color>");
                         }
                     }
                 }
-                else
-                {
-                    //Chat.Send(player, "<color=blue>Error 6</color>");
-                    return;
-                }
-            } else
-            {
-                //Chat.Send(player, "<color=blue>Error 7</color>");
-                return;
             }
+        }
+        [ModLoader.ModCallback(ModLoader.EModCallbackType.OnSendAreaHighlights, Nach0Config.Name + ".CommandTool.OnSendAreaHighlights")]
+        private static void OnSendAreaHighlights(Players.Player goal, List<AreaJobTracker.AreaHighlight> list, List<ushort> showWhileHoldingTypes)
+        {
+            showWhileHoldingTypes.Add(Nach0ColonyBuiltIn.ItemTypes.COMMANDTOOL.Id);
+        }
+        public class Nach0CommandTool : CSType
+        {
+            public static string NAME = Nach0Config.TypePrefix + "CommandTool";
+            public override string name => NAME;
+            public override string icon => Nach0Config.ModIconFolder + "CommandTool.png";
+            public override bool? isPlaceable => false;
+            public override int? maxStackSize => 1;
+            public override List<string> categories { get; set; } = new List<string>()
+            {
+                "essential",
+                "aaa"
+            };
+            public override StaticItem StaticItemSettings => new StaticItem() { Name = Nach0Config.TypePrefix + "CommandTool" };
         }
     }
 }

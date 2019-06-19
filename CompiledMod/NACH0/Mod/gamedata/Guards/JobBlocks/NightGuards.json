@@ -19,7 +19,7 @@
 	{
 		"blockType" : "NACH0.Types.Ballista.Guard.Night",
 		"cooldownShot" : 20,
-		"damage" : 1000,
+		"damage" : 5000,
 		"jobType" : "guard",
 		"npcType" : "NACH0.Jobs.Guard.Ballista.Night",
 		"onHitAudio" : "fleshHit",
@@ -75,7 +75,7 @@
 	{
 		"blockType" : "NACH0.Types.Sword.Guard.Night",
 		"cooldownShot" : 1.5,
-		"damage" : 1000,
+		"damage" : 1500,
 		"jobType" : "guard",
 		"npcType" : "NACH0.Jobs.Guard.Sword.Night",
 		"onHitAudio" : "fleshHit",

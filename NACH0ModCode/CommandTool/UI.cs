@@ -16,20 +16,6 @@ using Pandaros.Settlers;
 
 namespace NACH0.CommandTool
 {
-    /*[ModLoader.ModManager]
-    public class Warning
-    {
-        //Check every <increment> (miliseconds) the amount of the types observed
-        [ModLoader.ModCallback(ModLoader.EModCallbackType.OnUpdate, "NACH0.UI.ItemPlacerCheck")]
-        public static void OnUpdate()
-        {
-            if (warehouse.Items.GetValueOrDefault(itemIndex, 0) < amount)
-            {
-                Chat.Send(player, "<color=red>Warning: You need more: " + ItemTypes.IndexLookup.GetName(itemIndex) + ", current amount: " + warehouse.Items.GetValueOrDefault(itemIndex, 0) + "</color>");
-            }
-        }
-    }*/
-
     //open ui with command
     [ChatCommandAutoLoader]
     public class Command : IChatCommand
@@ -63,26 +49,21 @@ namespace NACH0.CommandTool
             commandUI.Height = 600;
 
             
-            ButtonCallback GuardsButton = new ButtonCallback("NACH0.UIButton.Guards", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Guards", player), UnityEngine.Color.black));
+            ButtonCallback GuardsButton = new ButtonCallback(Nach0Config.Name + ".UIButton.Guards", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Guards", player), UnityEngine.Color.black));
 
-            //commandUI.Items.Add(label);
-            //commandUI.Items.Add(new EmptySpace(5));
-
-            //if (Res)
-            //SlingShot buttons
+            
             Label Guardslabel = new Label(_localizationHelper.LocalizeOrDefault("Label.Guards", player));
-            ButtonCallback BackButton = new ButtonCallback("NACH0.UIButton.Back", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Back", player), UnityEngine.Color.black));
+            ButtonCallback BackButton = new ButtonCallback(Nach0Config.Name + ".UIButton.Back", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Back", player), UnityEngine.Color.black));
             List<(IItem, int)> GuardsHeaderHorizontalItems = new List<(IItem, int)>();
 
             GuardsHeaderHorizontalItems.Add((Guardslabel, 150));
-            //GuardsHeaderHorizontalItems.Add(new EmptySpace(75));
             GuardsHeaderHorizontalItems.Add((BackButton, 75));
 
             HorizontalRow GuardsHeaderHorizontalRow = new HorizontalRow(GuardsHeaderHorizontalItems);
 
             Label slingshotlabel = new Label(_localizationHelper.LocalizeOrDefault("Label.Slingshot", player));
-            ButtonCallback SlingshotButtonNight = new ButtonCallback("NACH0.UIButton.SlingShot.Night", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Night", player), UnityEngine.Color.black));
-            ButtonCallback SlingshotButtonDay = new ButtonCallback("NACH0.UIButton.SlingShot.Day", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Day", player), UnityEngine.Color.black));
+            ButtonCallback SlingshotButtonNight = new ButtonCallback(Nach0Config.Name + ".UIButton.SlingShot.Night", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Night", player), UnityEngine.Color.black));
+            ButtonCallback SlingshotButtonDay = new ButtonCallback(Nach0Config.Name + ".UIButton.SlingShot.Day", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Day", player), UnityEngine.Color.black));
             List<(IItem, int)> SlingshotHorizontalItems = new List<(IItem, int)>();
 
             SlingshotHorizontalItems.Add((slingshotlabel, 150));
@@ -92,10 +73,10 @@ namespace NACH0.CommandTool
             HorizontalRow SlingshotHorizontalRow = new HorizontalRow(SlingshotHorizontalItems);
             
 
-            //CompoundBow buttons
+            //CompoundBow
             Label compoundBowlabel = new Label(_localizationHelper.LocalizeOrDefault("Label.CompoundBow", player));
-            ButtonCallback compoundBowButtonNight = new ButtonCallback("NACH0.UIButton.CompoundBow.Night", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Night", player), UnityEngine.Color.black));
-            ButtonCallback compoundBowButtonDay = new ButtonCallback("NACH0.UIButton.CompoundBow.Day", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Day", player), UnityEngine.Color.black));
+            ButtonCallback compoundBowButtonNight = new ButtonCallback(Nach0Config.Name + ".UIButton.CompoundBow.Night", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Night", player), UnityEngine.Color.black));
+            ButtonCallback compoundBowButtonDay = new ButtonCallback(Nach0Config.Name + ".UIButton.CompoundBow.Day", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Day", player), UnityEngine.Color.black));
             List<(IItem, int)> compoundBowHorizontalItems = new List<(IItem, int)>();
 
             compoundBowHorizontalItems.Add((compoundBowlabel, 150));
@@ -105,10 +86,10 @@ namespace NACH0.CommandTool
             HorizontalRow compoundBowHorizontalRow = new HorizontalRow(compoundBowHorizontalItems);
             
 
-            //Sword buttons
+            //Sword
             Label swordlabel = new Label(_localizationHelper.LocalizeOrDefault("Label.ShortSword", player));
-            ButtonCallback swordButtonNight = new ButtonCallback("NACH0.UIButton.Sword.Night", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Night", player), UnityEngine.Color.black));
-            ButtonCallback swordButtonDay = new ButtonCallback("NACH0.UIButton.Sword.Day", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Day", player), UnityEngine.Color.black));
+            ButtonCallback swordButtonNight = new ButtonCallback(Nach0Config.Name + ".UIButton.Sword.Night", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Night", player), UnityEngine.Color.black));
+            ButtonCallback swordButtonDay = new ButtonCallback(Nach0Config.Name + ".UIButton.Sword.Day", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Day", player), UnityEngine.Color.black));
             List<(IItem, int)> swordHorizontalItems = new List<(IItem, int)>();
 
             swordHorizontalItems.Add((swordlabel, 150));
@@ -118,10 +99,10 @@ namespace NACH0.CommandTool
             HorizontalRow swordHorizontalRow = new HorizontalRow(swordHorizontalItems);
             
 
-            //Sniper buttons
+            //Sniper
             Label sniperlabel = new Label(_localizationHelper.LocalizeOrDefault("Label.Sniper", player));
-            ButtonCallback sniperButtonNight = new ButtonCallback("NACH0.UIButton.Sniper.Night", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Night", player), UnityEngine.Color.black));
-            ButtonCallback sniperButtonDay = new ButtonCallback("NACH0.UIButton.Sniper.Day", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Day", player), UnityEngine.Color.black));
+            ButtonCallback sniperButtonNight = new ButtonCallback(Nach0Config.Name + ".UIButton.Sniper.Night", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Night", player), UnityEngine.Color.black));
+            ButtonCallback sniperButtonDay = new ButtonCallback(Nach0Config.Name + ".UIButton.Sniper.Day", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Day", player), UnityEngine.Color.black));
             List<(IItem, int)> sniperHorizontalItems = new List<(IItem, int)>();
 
             sniperHorizontalItems.Add((sniperlabel, 150));
@@ -131,10 +112,10 @@ namespace NACH0.CommandTool
             HorizontalRow sniperHorizontalRow = new HorizontalRow(sniperHorizontalItems);
             
 
-            //Ballista buttons
+            //Ballista
             Label ballistalabel = new Label(_localizationHelper.LocalizeOrDefault("Label.Ballista", player));
-            ButtonCallback ballistaButtonNight = new ButtonCallback("NACH0.UIButton.Ballista.Night", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Night", player), UnityEngine.Color.black));
-            ButtonCallback ballistaButtonDay = new ButtonCallback("NACH0.UIButton.Ballista.Day", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Day", player), UnityEngine.Color.black));
+            ButtonCallback ballistaButtonNight = new ButtonCallback(Nach0Config.Name + ".UIButton.Ballista.Night", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Night", player), UnityEngine.Color.black));
+            ButtonCallback ballistaButtonDay = new ButtonCallback(Nach0Config.Name + ".UIButton.Ballista.Day", new LabelData(_localizationHelper.LocalizeOrDefault("Button.Day", player), UnityEngine.Color.black));
             List<(IItem, int)> ballistaHorizontalItems = new List<(IItem, int)>();
 
             ballistaHorizontalItems.Add((ballistalabel, 150));
@@ -151,11 +132,11 @@ namespace NACH0.CommandTool
                     if (player == null && player.ConnectionState != Players.EConnectionState.Connected || player.ActiveColony == null || player.ActiveColony.ScienceData == null)
                         return;
 
-                    Science.ScienceKey SlingShotScienceKey = new Science.ScienceKey("NACH0.Research.Slingshot");
-                    Science.ScienceKey CompoundBowScienceKey = new Science.ScienceKey("NACH0.Research.CompoundBow");
-                    Science.ScienceKey SwordScienceKey = new Science.ScienceKey("NACH0.Research.SwordGuard");
-                    Science.ScienceKey SniperScienceKey = new Science.ScienceKey("NACH0.Research.Sniper");
-                    Science.ScienceKey BallistaScienceKey = new Science.ScienceKey("NACH0.Research.Ballista");
+                    Science.ScienceKey SlingShotScienceKey = new Science.ScienceKey(Nach0Config.ResearchPrefix + "Slingshot");
+                    Science.ScienceKey CompoundBowScienceKey = new Science.ScienceKey(Nach0Config.ResearchPrefix + "CompoundBow");
+                    Science.ScienceKey SwordScienceKey = new Science.ScienceKey(Nach0Config.ResearchPrefix + "SwordGuard");
+                    Science.ScienceKey SniperScienceKey = new Science.ScienceKey(Nach0Config.ResearchPrefix + "Sniper");
+                    Science.ScienceKey BallistaScienceKey = new Science.ScienceKey(Nach0Config.ResearchPrefix + "Ballista");
 
                     if (SlingShotScienceKey.IsCompleted(player.ActiveColony.ScienceData))
                         commandUI.Items.Add(SlingshotHorizontalRow);
@@ -167,12 +148,6 @@ namespace NACH0.CommandTool
                         commandUI.Items.Add(sniperHorizontalRow);
                     if (BallistaScienceKey.IsCompleted(player.ActiveColony.ScienceData))
                         commandUI.Items.Add(ballistaHorizontalRow);
-
-                    //commandUI.Items.Add(SlingshotHorizontalRow);
-                    //commandUI.Items.Add(compoundBowHorizontalRow);
-                    //commandUI.Items.Add(swordHorizontalRow);
-                    //commandUI.Items.Add(sniperHorizontalRow);
-                    //commandUI.Items.Add(ballistaHorizontalRow);
                 } else
                 {
                     commandUI.Items.Add(GuardsButton);
@@ -193,68 +168,66 @@ namespace NACH0.CommandTool
     [ModLoader.ModManager]
     public static class commandUIInteraction
     {
-        //public static Dictionary<NetworkID, Dictionary<ushort, int>> warnings = new Dictionary<NetworkID, Dictionary<ushort, int>>();
-
         public static Dictionary<Players.Player, string> item_placer_dict = new Dictionary<Players.Player, string>();
         public static Dictionary<Players.Player, string> item_placer_option_dict = new Dictionary<Players.Player, string>();
 
-        [ModLoader.ModCallback(ModLoader.EModCallbackType.OnPlayerPushedNetworkUIButton, "NACH0.UIButton.OnPlayerPushedNetworkUIButton")]
+        [ModLoader.ModCallback(ModLoader.EModCallbackType.OnPlayerPushedNetworkUIButton, Nach0Config.Name + ".UIButton.OnPlayerPushedNetworkUIButton")]
         public static void OnPlayerPushedNetworkUIButton(ButtonPressCallbackData data)
         {
             string itemPrefix = "NACH0.Types.";
             string guard = ".Guard";
             string night = guard + ".Nightx+";
             string day = guard + ".Dayx+";
-            if (data.ButtonIdentifier.StartsWith("NACH0.UIButton."))
+            if (data.ButtonIdentifier.StartsWith(Nach0Config.Name + ".UIButton."))
             {
                 switch (data.ButtonIdentifier)
                 {
-                    case "NACH0.UIButton.Guards":
+                    case Nach0Config.Name + ".UIButton.Guards":
                         item_placer_option_dict[data.Player] = "Guards";
                         SendCommandUI.SendUI(data.Player);
                         item_placer_option_dict[data.Player] = "";
                         return;
-                    case "NACH0.UIButton.Back":
+                    case Nach0Config.Name + ".UIButton.Back":
                         item_placer_option_dict[data.Player] = "";
                         SendCommandUI.SendUI(data.Player);
                         return;
-                    case "NACH0.UIButton.SlingShot.Night":
+                    case Nach0Config.Name + ".UIButton.SlingShot.Night":
                         item_placer_dict[data.Player] = itemPrefix + "Slingshot" + night;
                         AfterItemTypeChanged(data.Player);
                         return;
-                    case "NACH0.UIButton.SlingShot.Day":
+                    case Nach0Config.Name + ".UIButton.SlingShot.Day":
                         item_placer_dict[data.Player] = itemPrefix + "Slingshot" + day;
                         AfterItemTypeChanged(data.Player);
                         return;
-                    case "NACH0.UIButton.CompoundBow.Night":
+                    case Nach0Config.Name + ".UIButton.CompoundBow.Night":
                         item_placer_dict[data.Player] = itemPrefix + "CompoundBow" + night;
                         AfterItemTypeChanged(data.Player);
                         return;
-                    case "NACH0.UIButton.CompoundBow.Day":
+                    case Nach0Config.Name + ".UIButton.CompoundBow.Day":
                         item_placer_dict[data.Player] = itemPrefix + "CompoundBow" + day;
                         AfterItemTypeChanged(data.Player);
                         return;
-                    case "NACH0.UIButton.Sword.Night":
+                    case Nach0Config.Name + ".UIButton.Sword.Night":
                         item_placer_dict[data.Player] = itemPrefix + "Sword" + night;
                         AfterItemTypeChanged(data.Player);
                         return;
-                    case "NACH0.UIButton.Sword.Day":
+                    case Nach0Config.Name + ".UIButton.Sword.Day":
                         item_placer_dict[data.Player] = itemPrefix + "Sword" + day;
                         AfterItemTypeChanged(data.Player);
                         return;
-                    case "NACH0.UIButton.Sniper.Night":
+                    case Nach0Config.Name + ".UIButton.Sniper.Night":
                         item_placer_dict[data.Player] = itemPrefix + "Sniper" + night;
                         AfterItemTypeChanged(data.Player);
                         return;
-                    case "NACH0.UIButton.Sniper.Day":
+                    case Nach0Config.Name + ".UIButton.Sniper.Day":
                         item_placer_dict[data.Player] = itemPrefix + "Sniper" + day;
                         AfterItemTypeChanged(data.Player);
                         return;
-                    case "NACH0.UIButton.Ballista.Night":
+                    case Nach0Config.Name + ".UIButton.Ballista.Night":
                         item_placer_dict[data.Player] = itemPrefix + "Ballista" + night;
                         AfterItemTypeChanged(data.Player);
                         return;
-                    case "NACH0.UIButton.Ballista.Day":
+                    case Nach0Config.Name + ".UIButton.Ballista.Day":
                         item_placer_dict[data.Player] = itemPrefix + "Ballista" + day;
                         AfterItemTypeChanged(data.Player);
                         return;

@@ -65,6 +65,16 @@ namespace NACH0.Research
                 }
             }
         };
+            public override Dictionary<int, List<string>> Dependancies => new Dictionary<int, List<string>>()
+            {
+                {
+                    0,
+                    new List<string>()
+                    {
+                        Nach0ColonyBuiltIn.Research.COMPOUNDBOW
+                    }
+                }
+            };
 
             public override void ResearchComplete(object sender, ResearchCompleteEventArgs e)
             {

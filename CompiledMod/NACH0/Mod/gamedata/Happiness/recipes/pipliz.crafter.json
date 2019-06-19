@@ -1,0 +1,14 @@
+[{
+		"defaultLimit": 10,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.ToiletHole",
+		"requires": [{
+			"amount": 1,
+			"type": "dirt"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "NACH0.Types.ToiletHole"
+		}]
+	}
+]

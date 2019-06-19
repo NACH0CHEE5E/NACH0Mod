@@ -25,6 +25,10 @@
 		}
 	},
 	"types": {
-		"NACH0.Types.ItemPlacer": "NACH0 Command Tool"
+		"NACH0.Types.ItemPlacer": "NACH0 Command Tool",
+		"NACH0.Types.CommandTool": "NACH0 Command Tool"
+	},
+	"typeuses": {
+		"NACH0.Types.CommandTool": "left click to open UI, right click to place slected job"
 	}
 }

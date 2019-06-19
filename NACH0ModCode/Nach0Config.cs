@@ -8,14 +8,17 @@ namespace NACH0
 {
     class Nach0Config
     {
-        public static string Name = "NACH0";
-        public static string TypePrefix = Name + ".Types.";
-        public static string ModName = "Mod";
-        public static string ModFullName = Name + "." + ModName;
-        public static string GamedataFolder = "gamedata";
-        public static string ModsFolder = GamedataFolder + "/mods";
-        public static string ModFolder = ModsFolder + "/" + Name + "/" + ModName;
-        public static string ModGamedataFolder = ModFolder + "/gamedata";
-        public static string ModIconFolder = ModGamedataFolder + "/textures/icons/";
+        public const string Name = "NACH0";
+        public const string TypePrefix = Name + ".Types.";
+        public const string ResearchPrefix = Name + ".Research.";
+        public const string JobPrefix = Name + ".Jobs.";
+        public const string JobGuardPrefix = Name + ".Jobs.Guard.";
+        public const string ModName = "Mod";
+        public const string ModFullName = Name + "." + ModName;
+        public const string GamedataFolder = "gamedata";
+        public const string ModsFolder = GamedataFolder + "/mods";
+        public const string ModFolder = ModsFolder + "/" + Name + "/" + ModName;
+        public const string ModGamedataFolder = ModFolder + "/gamedata";
+        public const string ModIconFolder = ModGamedataFolder + "/textures/icons/";
     }
 }

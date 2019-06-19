@@ -1,0 +1,16 @@
+{
+	"NACH0.Types.ToiletHole": {
+		"categories": [
+			"essential",
+			"toilet",
+			"NACH0"
+		],
+		"icon": "./../../textures/icons/ToiletHole.png",
+		"onPlaceAudio": "dirtPlace",
+		"onRemoveAudio": "grassDelete",
+		"maxStackSize": 200,
+		"sideall": "dirt",
+		"sidey+": "NACH0.Textures.ToiletHole",
+		"destructionTime" : 350
+	}
+}

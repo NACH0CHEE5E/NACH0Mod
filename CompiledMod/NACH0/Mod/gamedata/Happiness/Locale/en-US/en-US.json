@@ -1,0 +1,19 @@
+{
+	"sentences": {
+		"Pandaros": {
+			"Settlers": {
+				"NACH0": {
+					"Happiness": {
+						"NotEnoughToilets": "Not Enough Toilets"
+					}
+				}
+			}
+		}
+	},
+	"types": {
+		"NACH0.Types.ToiletHole": "Poop Hole"
+	},
+	"typeuses": {
+		"NACH0.Types.ToiletHole": "For your colonists to relieve themselves"
+	}
+}

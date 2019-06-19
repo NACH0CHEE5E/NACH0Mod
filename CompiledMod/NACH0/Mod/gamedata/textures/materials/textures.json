@@ -397,5 +397,8 @@
 	},
 	"NACH0.Textures.StoneMason": {
 		"albedo": "StoneMason"
+	},
+	"NACH0.Textures.ToiletHole": {
+		"albedo": "ToiletHole"
 	}
 }

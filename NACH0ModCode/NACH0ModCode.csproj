@@ -70,6 +70,8 @@
   <ItemGroup>
     <Compile Include="CommandTool\UI.cs" />
     <Compile Include="CommandTool\itemplacer.cs" />
+    <Compile Include="Happiness\Toilets.cs" />
+    <Compile Include="Jobs\NightShifJobs.cs" />
     <Compile Include="Models\Models.cs" />
     <Compile Include="Nach0Config.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,5 +84,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
