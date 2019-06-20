@@ -94,7 +94,7 @@ namespace NACH0.Jobs
         }
 
 
-        public override List<string> ObjectiveCategories => new List<string>() { "Toilets" };
+        public override List<string> ObjectiveCategories => new List<string>() { "toilet" };
         public override string JobItemKey => JOB_ITEM_KEY;
         public override List<ItemId> OkStatus => new List<ItemId>
             {
@@ -107,16 +107,20 @@ namespace NACH0.Jobs
         public override string icon { get; set; } = Nach0Config.ModIconFolder + "ToiletClean.png";
     }
 
-    [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterItemTypesDefined, Nach0Config.Name + ".Plumber")]
-    [ModLoader.ModCallbackProvidesFor("create_savemanager")]
-    public static void AfterDefiningNPCTypes()
+    [ModLoader.ModManager]
+    public static class PlumberModEntries
     {
-        ServerManager.BlockEntityCallbacks.RegisterEntityManager(
-            new BlockJobManager<Plumber>(
-                new PlumberSettings(),
-                (setting, pos, type, bytedata) => new Plumber(setting, pos, type, bytedata),
-                (setting, pos, type, colony) => new Plumber(setting, pos, type, colony)
-            )
-        );
+        [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterItemTypesDefined, Nach0Config.Name + ".Plumber")]
+        [ModLoader.ModCallbackProvidesFor("create_savemanager")]
+        public static void AfterDefiningNPCTypes()
+        {
+            ServerManager.BlockEntityCallbacks.RegisterEntityManager(
+                new BlockJobManager<Plumber>(
+                    new PlumberSettings(),
+                    (setting, pos, type, bytedata) => new Plumber(setting, pos, type, bytedata),
+                    (setting, pos, type, colony) => new Plumber(setting, pos, type, colony)
+                )
+            );
+        }
     }
 }

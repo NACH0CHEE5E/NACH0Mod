@@ -10,6 +10,7 @@ namespace NACH0
     {
         public const string Name = "NACH0";
         public const string TypePrefix = Name + ".Types.";
+        public const string IndicatorTypePrefix = TypePrefix + "Indicator.";
         public const string ResearchPrefix = Name + ".Research.";
         public const string JobPrefix = Name + ".Jobs.";
         public const string JobGuardPrefix = Name + ".Jobs.Guard.";

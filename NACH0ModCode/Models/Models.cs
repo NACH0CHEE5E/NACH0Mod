@@ -7,6 +7,7 @@ namespace NACH0.Models
     public static class Nach0ColonyBuiltIn
     {
         private const string TYPE = Nach0Config.TypePrefix;
+        private const string INDICATOR = Nach0Config.IndicatorTypePrefix;
         private const string JOB = Nach0Config.JobPrefix;
         private const string GUARD = Nach0Config.JobGuardPrefix;
         private const string RESEARCH = Nach0Config.ResearchPrefix;
@@ -90,6 +91,7 @@ namespace NACH0.Models
             public static readonly ItemId ITEMPLACER = ItemId.GetItemId(TYPE + "ItemPlacer");
             public static readonly ItemId COMMANDTOOL = ItemId.GetItemId(TYPE + "CommandTool");
             public static readonly ItemId TOILETHOLE = ItemId.GetItemId(TYPE + "ToiletHole");
+            public static readonly ItemId TOILETCLEANINDICATOR = ItemId.GetItemId(INDICATOR + "ToiletClean");
         }
     }
 }
