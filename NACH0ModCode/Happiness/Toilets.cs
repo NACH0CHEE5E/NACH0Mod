@@ -23,14 +23,10 @@ namespace NACH0.Happiness
 
         public float Evaluate(Colony colony)
         {
-            if (colony != null)
+            if (colony != null && colony.FollowerCount > 15)
             {
-                var cs = ColonyState.GetColonyState(colony);
-                if (cs.ItemsInWorld.ContainsKey(Nach0ColonyBuiltIn.ItemTypes.TOILETHOLE.Id))
-                {
-                    var toiletCount = cs.ItemsInWorld[Nach0ColonyBuiltIn.ItemTypes.TOILETHOLE.Id];
                     //toiletCount = RoamingJobManager.Objectives[colony].Select(s => s.Value.RoamObjective == "toilet").ToList();
-                    toiletCount = 0;
+                    var toiletCount = 0;
                     //ServerLog.LogAsyncMessage(new LogMessage("<color=blue>Number of toilets: " + toiletCount + "    (before foreach)</color>", UnityEngine.LogType.Log));
                     var toilets = RoamingJobManager.Objectives[colony].Where(s => s.Value.RoamingJobSettings.ObjectiveCategory == "toilet").Select(s => s.Value).ToList();
                     foreach (var toilet in toilets)
@@ -57,11 +53,6 @@ namespace NACH0.Happiness
                     {
                         return 0;
                     }
-                }
-                else
-                {
-                    return colony.FollowerCount * -1;
-                }
             }
             else
             {

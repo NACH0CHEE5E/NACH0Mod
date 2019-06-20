@@ -36,7 +36,7 @@ namespace NACH0.Jobs
             {
                 keyName = Nach0Config.JobPrefix + "Plumber",
                 printName = "Plumber",
-                maskColor1 = new Color32(242, 132, 29, 255),
+                maskColor1 = new Color32(30, 77, 153, 255),
                 type = NPCTypeID.GetNextID(),
                 inventoryCapacity = 1f
             });

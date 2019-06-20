@@ -70,6 +70,7 @@
   <ItemGroup>
     <Compile Include="CommandTool\UI.cs" />
     <Compile Include="CommandTool\itemplacer.cs" />
+    <Compile Include="Happiness\FancyToilets.cs" />
     <Compile Include="Happiness\DirtyToilets.cs" />
     <Compile Include="Happiness\Toilets.cs" />
     <Compile Include="Types\Toilet.cs" />
