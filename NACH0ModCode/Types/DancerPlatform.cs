@@ -11,7 +11,7 @@ using System.Collections.ObjectModel;
 using UnityEngine;
 using NACH0.Models;
 using Pandaros.Settlers;
-using NACH0.Items.Toilets;
+using NACH0.Items.Dancer;
 
 namespace NACH0.types
 {
@@ -27,135 +27,67 @@ namespace NACH0.types
         public override List<string> categories { get; set; } = new List<string>()
         {
             "essential",
-            "toilet",
+            "dancing",
             "NACH0"
         };
     }
-    public class CeramicToiletRegister : IRoamingJobObjective
+    public class DancerPlatformRegister : IRoamingJobObjective
     {
-        public string name => "PorcelainToilet";
+        public string name => "DancerPlatform";
         public float WorkTime => 5f;
-        public ItemId ItemIndex => Nach0ColonyBuiltIn.ItemTypes.TOILET.Id;
+        public ItemId ItemIndex => Nach0ColonyBuiltIn.ItemTypes.DANCERPLATFORM.Id;
         public Dictionary<string, IRoamingJobObjectiveAction> ActionCallbacks { get; } = new Dictionary<string, IRoamingJobObjectiveAction>()
         {
-            { ToiletConstants.CLEAN, new CleanToilet() }
+            { DancerConstants.DANCE, new DanceAtPlatform() }
         };
 
-        public string ObjectiveCategory => "toilet";
+        public string ObjectiveCategory => "dancing";
 
-        public void DoWork(Colony colony, RoamingJobState toiletState)
+        public void DoWork(Colony colony, RoamingJobState dancerState)
         {
             if ((!colony.OwnerIsOnline() && SettlersConfiguration.OfflineColonies) || colony.OwnerIsOnline())
-                if (toiletState.GetActionEnergy(ToiletConstants.CLEAN) > 0 &&
-                    toiletState.NextTimeForWork < Pipliz.Time.SecondsSinceStartDouble)
+                if (dancerState.GetActionEnergy(DancerConstants.DANCE) > 0 &&
+                    dancerState.NextTimeForWork < Pipliz.Time.SecondsSinceStartDouble)
                 {
                     if (TimeCycle.IsDay)
                     {
-                        toiletState.SubtractFromActionEnergy(ToiletConstants.CLEAN, 0.05f);
+                        dancerState.SubtractFromActionEnergy(DancerConstants.DANCE, 0.05f);
                     }
                     else
                     {
-                        toiletState.SubtractFromActionEnergy(ToiletConstants.CLEAN, 0.02f);
+                        dancerState.SubtractFromActionEnergy(DancerConstants.DANCE, 0.02f);
                     }
 
-                    toiletState.NextTimeForWork = toiletState.RoamingJobSettings.WorkTime + Pipliz.Time.SecondsSinceStartDouble;
+                    dancerState.NextTimeForWork = dancerState.RoamingJobSettings.WorkTime + Pipliz.Time.SecondsSinceStartDouble;
 
 
                 }
         }
     }
-    public class ToiletRegister : IRoamingJobObjective
+    public class DanceAtPlatform : IRoamingJobObjectiveAction
     {
-        public string name => "Toilet";
-        public float WorkTime => 5f;
-        public ItemId ItemIndex => Nach0ColonyBuiltIn.ItemTypes.TOILETHOLE.Id;
-        public Dictionary<string, IRoamingJobObjectiveAction> ActionCallbacks { get; } = new Dictionary<string, IRoamingJobObjectiveAction>()
-        {
-            { ToiletConstants.CLEAN, new CleanToilet() }
-        };
-
-        public string ObjectiveCategory => "toilet";
-
-        public void DoWork(Colony colony, RoamingJobState toiletState)
-        {
-            if ((!colony.OwnerIsOnline() && SettlersConfiguration.OfflineColonies) || colony.OwnerIsOnline())
-                if (toiletState.GetActionEnergy(ToiletConstants.CLEAN) > 0 &&
-                    toiletState.NextTimeForWork < Pipliz.Time.SecondsSinceStartDouble)
-                {
-                    if (TimeCycle.IsDay)
-                    {
-                        toiletState.SubtractFromActionEnergy(ToiletConstants.CLEAN, 0.05f);
-                    }
-                    else
-                    {
-                        toiletState.SubtractFromActionEnergy(ToiletConstants.CLEAN, 0.02f);
-                    }
-                    
-                    toiletState.NextTimeForWork = toiletState.RoamingJobSettings.WorkTime + Pipliz.Time.SecondsSinceStartDouble;
-
-
-                }
-        }
-    }
-    public class CleanToilet : IRoamingJobObjectiveAction
-    {
-        public string name => ToiletConstants.CLEAN;
+        public string name => DancerConstants.DANCE;
 
         public float TimeToPreformAction => 10f;
 
         public string AudioKey => "grassDelete";
 
-        public ItemId ObjectiveLoadEmptyIcon => Nach0ColonyBuiltIn.ItemTypes.TOILETCLEANINDICATOR.Id;
+        public ItemId ObjectiveLoadEmptyIcon => Nach0ColonyBuiltIn.ItemTypes.DANCER.Id;
 
-        public ItemId PreformAction(Colony colony, RoamingJobState state)
+        public ItemId PreformAction(Colony colony, RoamingJobState dancerPlatformState)
         {
-            var retval = Nach0ColonyBuiltIn.ItemTypes.TOILETCLEANINDICATOR.Id;
+            var retval = Nach0ColonyBuiltIn.ItemTypes.DANCER.Id;
 
             if (!colony.OwnerIsOnline() && SettlersConfiguration.OfflineColonies || colony.OwnerIsOnline())
             {
-                if (state.GetActionEnergy(ToiletConstants.CLEAN) < .75f)
+                if (dancerPlatformState.GetActionEnergy(DancerConstants.DANCE) < .75f)
                 {
                     var repaired = false;
-                    var requiredForClean = new List<InventoryItem>();
-                    var returnedFromClean = new List<InventoryItem>();
-                    var stockpile = colony.Stockpile;
-                    int itemReqMult = 1;
-
-
-                    if (state.GetActionEnergy(ToiletConstants.CLEAN) < .50f)
-                    {
-                        itemReqMult ++;
-                    }
-                    if (state.GetActionEnergy(ToiletConstants.CLEAN) < .30f)
-                    {
-                        itemReqMult ++;
-                    }
-                    if (state.GetActionEnergy(ToiletConstants.CLEAN) < .10f)
-                    {
-                        itemReqMult ++;
-                    }
-
-                    requiredForClean.Add(new InventoryItem(ColonyBuiltIn.ItemTypes.BUCKETWATER.Name, 1 * itemReqMult));
-                    returnedFromClean.Add(new InventoryItem(ColonyBuiltIn.ItemTypes.BUCKETEMPTY.Name, 1 * itemReqMult));
-
-                    if (stockpile.Contains(requiredForClean))
-                    {
-                        stockpile.TryRemove(requiredForClean);
-                        repaired = true;
-                        stockpile.Add(returnedFromClean);
-                    }
-                    else
-                    {
-                        foreach (var item in requiredForClean)
-                            if (!stockpile.Contains(item))
-                            {
-                                retval = ItemId.GetItemId(item.Type);
-                                break;
-                            }
-                    }
 
                     if (repaired)
-                        state.ResetActionToMaxLoad(ToiletConstants.CLEAN);
+                    {
+                        dancerPlatformState.ResetActionToMaxLoad(DancerConstants.DANCE);
+                    }
                 }
             }
 

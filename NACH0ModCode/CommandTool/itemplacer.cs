@@ -18,22 +18,19 @@ namespace NACH0.CommandTool
         {
             if (data.TypeSelected == Nach0ColonyBuiltIn.ItemTypes.COMMANDTOOL.Id)
             {
+                PlayerClickedData.VoxelHit voxelData = data.GetVoxelHit();
                 if (data.ClickType == PlayerClickedData.EClickType.Left)
                 {
                     SendCommandUI.SendUI(player);
                 }
                 else if (data.ClickType == PlayerClickedData.EClickType.Right)
                 {
-                    if (PlayerClickedData.EHitType.Block == data.HitType)
+                    if (PlayerClickedData.EHitType.Block == data.HitType && voxelData.SideHit == VoxelSide.yPlus)
                     {
-                        PlayerClickedData.VoxelHit voxelData = data.GetVoxelHit();
-                        if (voxelData.SideHit == VoxelSide.yPlus)
-                        {
                             if (commandUIInteraction.item_placer_dict.ContainsKey(player))
                             {
                                 ServerManager.TryChangeBlock(voxelData.PositionBuild, ItemTypes.GetType(commandUIInteraction.item_placer_dict[player]).ItemIndex, player);
                             }
-                        }
                     }
                 }
             }

@@ -22,15 +22,17 @@ namespace NACH0.Happiness
 
         public float Evaluate(Colony colony)
         {
-            if (colony != null && colony.FollowerCount > 15 && RoamingJobManager.Objectives.ContainsKey(colony))
+            ServerLog.LogAsyncMessage(new LogMessage("<color=blue>1</color>", UnityEngine.LogType.Log));
+            if (colony != null && colony.FollowerCount > 15 && RoamingJobManager.Objectives.TryGetValue(colony, out var toiletLocations))
             {
+                ServerLog.LogAsyncMessage(new LogMessage("<color=blue>2</color>", UnityEngine.LogType.Log));
                 var DirtyToiletCount = 0;
-                var toilets = RoamingJobManager.Objectives[colony].Where(s => s.Value.RoamingJobSettings.ObjectiveCategory == "toilet").Select(s => s.Value).ToList();
+                var toilets = toiletLocations.Where(s => s.Value.RoamingJobSettings.ObjectiveCategory == "toilet").Select(s => s.Value).ToList();
                 foreach (var toilet in toilets)
                 {
-                    if (toilet.ActionEnergy.ContainsKey(ToiletConstants.CLEAN))
+                    if (toilet.ActionEnergy.TryGetValue(ToiletConstants.CLEAN, out var levelOfClean))
                     {
-                        var levelOfClean = toilet.ActionEnergy[ToiletConstants.CLEAN];
+                        //var levelOfClean = toilet.ActionEnergy[ToiletConstants.CLEAN];
                         if (levelOfClean <= 0.45f)
                         {
                             DirtyToiletCount++;
@@ -42,6 +44,7 @@ namespace NACH0.Happiness
             }
             else
             {
+                ServerLog.LogAsyncMessage(new LogMessage("<color=blue>3</color>", UnityEngine.LogType.Log));
                 return 0;
             }
 

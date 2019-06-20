@@ -94,6 +94,7 @@ namespace NACH0.Models
             public static readonly ItemId TOILET = ItemId.GetItemId(TYPE + "PorcelainToilet");
             public static readonly ItemId TOILETCLEANINDICATOR = ItemId.GetItemId(INDICATOR + "ToiletClean");
             public static readonly ItemId DANCER = ItemId.GetItemId(TYPE + "DancerBlock");
+            public static readonly ItemId DANCERPLATFORM = ItemId.GetItemId(TYPE + "DancerPlatform");
         }
     }
 }
