@@ -73,6 +73,7 @@
     <Compile Include="Happiness\FancyToilets.cs" />
     <Compile Include="Happiness\DirtyToilets.cs" />
     <Compile Include="Happiness\Toilets.cs" />
+    <Compile Include="Jobs\Dancer.cs" />
     <Compile Include="Types\Toilet.cs" />
     <Compile Include="Jobs\NightShifJobs.cs" />
     <Compile Include="Items\Toilet.cs" />
