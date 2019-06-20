@@ -400,5 +400,8 @@
 	},
 	"NACH0.Textures.ToiletHole": {
 		"albedo": "ToiletHole"
+	},
+	"NACH0.Textures.PlumberTable": {
+		"albedo": "PlumberTable"
 	}
 }

@@ -18,7 +18,7 @@ namespace NACH0.types
     public class ToiletRegister : IRoamingJobObjective
     {
         public string name => "Toilet";
-        public float WorkTime => 4;
+        public float WorkTime => 5f;
         public ItemId ItemIndex => Nach0ColonyBuiltIn.ItemTypes.TOILETHOLE.Id;
         public Dictionary<string, IRoamingJobObjectiveAction> ActionCallbacks { get; } = new Dictionary<string, IRoamingJobObjectiveAction>()
         {
@@ -33,7 +33,15 @@ namespace NACH0.types
                 if (toiletState.GetActionEnergy(ToiletConstants.CLEAN) > 0 &&
                     toiletState.NextTimeForWork < Pipliz.Time.SecondsSinceStartDouble)
                 {
-                    toiletState.SubtractFromActionEnergy(ToiletConstants.CLEAN, 0.05f);
+                    if (TimeCycle.IsDay)
+                    {
+                        toiletState.SubtractFromActionEnergy(ToiletConstants.CLEAN, 0.05f);
+                    }
+                    else
+                    {
+                        toiletState.SubtractFromActionEnergy(ToiletConstants.CLEAN, 0.02f);
+                    }
+                    
                     toiletState.NextTimeForWork = toiletState.RoamingJobSettings.WorkTime + Pipliz.Time.SecondsSinceStartDouble;
 
 
@@ -44,7 +52,7 @@ namespace NACH0.types
     {
         public string name => ToiletConstants.CLEAN;
 
-        public float TimeToPreformAction => 10;
+        public float TimeToPreformAction => 6f;
 
         public string AudioKey => "grassDelete";
 

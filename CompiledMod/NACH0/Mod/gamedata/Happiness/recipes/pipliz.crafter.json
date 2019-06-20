@@ -10,5 +10,18 @@
 			"amount": 1,
 			"type": "NACH0.Types.ToiletHole"
 		}]
+	},
+	{
+		"defaultLimit": 5,
+		"defaultPriority": -100,
+		"name": "NACH0.crafter.PlumberTable",
+		"requires": [{
+			"amount": 1,
+			"type": "workbench"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "NACH0.Types.PlumberTable"
+		}]
 	}
 ]

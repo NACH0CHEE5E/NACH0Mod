@@ -4,7 +4,8 @@
 			"Settlers": {
 				"NACH0": {
 					"Happiness": {
-						"NotEnoughToilets": "Not Enough Toilets"
+						"NotEnoughToilets": "Not Enough Toilets",
+						"DirtyToilets": "Dirty Toilets"
 					}
 				}
 			}

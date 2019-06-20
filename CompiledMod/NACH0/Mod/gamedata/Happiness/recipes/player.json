@@ -9,5 +9,16 @@
 		"results": [{
 			"type": "NACH0.Types.ToiletHole"
 		}]
+	},
+	{
+		"name": "NACH0.crafter.PlumberTable",
+		"requires": [{
+			"amount": 1,
+			"type": "workbench"
+		}],
+		"results": [{
+			"amount": 1,
+			"type": "NACH0.Types.PlumberTable"
+		}]
 	}
 ]
