@@ -13,6 +13,7 @@ namespace NACH0
         public const string IndicatorTypePrefix = TypePrefix + "Indicator.";
         public const string ResearchPrefix = Name + ".Research.";
         public const string JobPrefix = Name + ".Jobs.";
+        public const string TexturePrefix = Name + ".Textures.";
         public const string JobGuardPrefix = Name + ".Jobs.Guard.";
         public const string ModName = "Mod";
         public const string ModFullName = Name + "." + ModName;

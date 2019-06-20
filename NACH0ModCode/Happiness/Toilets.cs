@@ -10,6 +10,9 @@ using Shared;
 using NACH0.Models;
 using Chatting;
 using Pandaros.Settlers.Entities;
+using Pandaros.Settlers.Jobs.Roaming;
+
+using NACH0.Items.Toilets;
 
 namespace NACH0.Happiness
 {
@@ -26,6 +29,12 @@ namespace NACH0.Happiness
                 if (cs.ItemsInWorld.ContainsKey(Nach0ColonyBuiltIn.ItemTypes.TOILETHOLE.Id))
                 {
                     var toiletCount = cs.ItemsInWorld[Nach0ColonyBuiltIn.ItemTypes.TOILETHOLE.Id];
+                    //toiletCount = RoamingJobManager.Objectives[colony].Select(s => s.Value.RoamObjective == "toilet").ToList();
+                    var toilets = RoamingJobManager.Objectives[colony].Where(s => s.Value.RoamObjective == "toilet").ToList();
+                    foreach (var toilet in toilets)
+                    {
+                        var levelOfClean = toilet.ActionEnergy[ToiletConstants.CLEAN];
+                    }
                     int toiletsSupplied = toiletCount * 10;
                     int toiletsNeeded = colony.FollowerCount;
 
@@ -59,7 +68,7 @@ namespace NACH0.Happiness
     }
 
     [ChatCommandAutoLoader]
-    public class Command : IChatCommand
+    public class SeeToiletsCommand : IChatCommand
     {
         public bool TryDoCommand(Players.Player player, string chat, List<string> splits)
         {
@@ -80,6 +89,37 @@ namespace NACH0.Happiness
             }
 
             if (!chat.Equals("?nach0toilets"))
+            {
+                return false;
+            }
+
+
+            Chat.Send(player, "<color=blue>Number of toilets: " + toiletCount + "</color>");
+            return true;
+        }
+    }
+    [ChatCommandAutoLoader]
+    public class DisableToiletsCommand : IChatCommand
+    {
+        public bool TryDoCommand(Players.Player player, string chat, List<string> splits)
+        {
+            var ps = PlayerState.GetPlayerState(player);
+            var cs = ColonyState.GetColonyState(ps.Player.ActiveColony);
+            int toiletCount;
+            if (cs.ItemsInWorld.ContainsKey(Nach0ColonyBuiltIn.ItemTypes.TOILETHOLE.Id))
+            {
+                toiletCount = cs.ItemsInWorld[Nach0ColonyBuiltIn.ItemTypes.TOILETHOLE.Id];
+            }
+            else
+            {
+                toiletCount = 0;
+            }
+            if (player == null)
+            {
+                return false;
+            }
+
+            if (!chat.Equals("?nach0toiletsoff"))
             {
                 return false;
             }

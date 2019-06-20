@@ -25,7 +25,7 @@ namespace NACH0.types
             { ToiletConstants.CLEAN, new CleanToilet() }
         };
 
-        public string ObjectiveCategory => ToiletConstants.PLUMBING;
+        public string ObjectiveCategory => "toilet";
 
         public void DoWork(Colony colony, RoamingJobState toiletState)
         {
@@ -34,8 +34,8 @@ namespace NACH0.types
                     toiletState.NextTimeForWork < Pipliz.Time.SecondsSinceStartDouble)
                 {
                     toiletState.SubtractFromActionEnergy(ToiletConstants.CLEAN, 0.05f);
+                    toiletState.NextTimeForWork = toiletState.RoamingJobSettings.WorkTime + Pipliz.Time.SecondsSinceStartDouble;
 
-                    
 
                 }
         }

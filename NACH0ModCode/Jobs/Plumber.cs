@@ -21,6 +21,7 @@ namespace NACH0.Jobs
         public override string onPlaceAudio => "stonePlace";
         public override string onRemoveAudio => "stoneDelete";
         public override string sideall => "planks";
+        public override string sideyp => Nach0Config.TexturePrefix + "PlumberTable";
         public override List<string> categories => new List<string>() { "job", "NACH0" }; // whatever you want really
     }
     public class PlumberSettings : IBlockJobSettings
@@ -98,7 +99,8 @@ namespace NACH0.Jobs
         public override string JobItemKey => JOB_ITEM_KEY;
         public override List<ItemId> OkStatus => new List<ItemId>
             {
-                Nach0ColonyBuiltIn.ItemTypes.TOILETCLEANINDICATOR.Id
+                Nach0ColonyBuiltIn.ItemTypes.TOILETCLEANINDICATOR.Id,
+                ItemId.GetItemId("Pandaros.Settlers.Waiting")
             };
     }
     public class CleaningIcon : CSType
