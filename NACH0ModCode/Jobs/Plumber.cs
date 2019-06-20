@@ -14,23 +14,15 @@ using Pandaros.Settlers;
 
 namespace NACH0.Jobs
 {
-    [ModLoader.ModManager]
-    class PlumberModEntires
+    public class plumberJobType : CSType
     {
-        [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterItemTypesDefined, Nach0Config.Name + ".Jobs.PlumberModEntries")]
-        [ModLoader.ModCallbackProvidesFor("create_savemanager")]
-        public static void AfterDefiningNPCTypes()
-        {
-            ServerManager.BlockEntityCallbacks.RegisterEntityManager(
-                new BlockJobManager<Plumber>(
-                    new PlumberSettings(),
-                    (setting, pos, type, bytedata) => new Plumber(setting, pos, type, bytedata),
-                    (setting, pos, type, colony) => new Plumber(setting, pos, type, colony)
-                )
-            );
-        }
+        public override string name => Nach0Config.TypePrefix + "PlumberTable";
+        public override string icon => Nach0Config.ModIconFolder + "PlumberTable.png";
+        public override string onPlaceAudio => "stonePlace";
+        public override string onRemoveAudio => "stoneDelete";
+        public override string sideall => "planks";
+        public override List<string> categories => new List<string>() { "job", "NACH0" }; // whatever you want really
     }
-
     public class PlumberSettings : IBlockJobSettings
     {
         static NPCType _Settings;
@@ -41,24 +33,24 @@ namespace NACH0.Jobs
         {
             NPCType.AddSettings(new NPCTypeStandardSettings
             {
-                keyName = Plumber.JOB_NAME,
-                printName = "Machinist Day",
+                keyName = Nach0Config.JobPrefix + "Plumber",
+                printName = "Plumber",
                 maskColor1 = new Color32(242, 132, 29, 255),
                 type = NPCTypeID.GetNextID(),
                 inventoryCapacity = 1f
             });
 
-            _Settings = NPCType.GetByKeyNameOrDefault(Plumber.JOB_NAME);
+            _Settings = NPCType.GetByKeyNameOrDefault(Nach0Config.JobPrefix + "Plumber");
         }
 
         public virtual ItemTypes.ItemType[] BlockTypes => new[]
         {
-            ItemTypes.GetType(Plumber.JOB_ITEM_KEY)
+            ItemTypes.GetType(Nach0Config.TypePrefix + "PlumberTable") // the block type placed
         };
 
-        public virtual NPCType NPCType => _Settings;
+        public NPCType NPCType => _Settings;
 
-        public virtual InventoryItem RecruitmentItem => new InventoryItem(ColonyBuiltIn.ItemTypes.COPPERTOOLS.Name);
+        public virtual InventoryItem RecruitmentItem => new InventoryItem("coppertools");
 
         public virtual bool ToSleep => !TimeCycle.IsDay;
 
@@ -87,9 +79,9 @@ namespace NACH0.Jobs
     }
     public class Plumber : RoamingJob
     {
-        public static string JOB_NAME = Nach0Config.JobPrefix + ".Plumber";
-        public static string JOB_ITEM_KEY = Nach0Config.TypePrefix + ".PlumberTable";
-        public static string JOB_RECIPE = Nach0Config.Name + ".crafter.PlumberTable";
+        public static string JOB_NAME = Nach0Config.JobPrefix + "Plumber";
+        public static string JOB_ITEM_KEY = Nach0Config.TypePrefix + "PlumberTable";
+        public static string JOB_RECIPE = Nach0Config.Name + ".crafter.Plumber";
 
         public Plumber(IBlockJobSettings settings, Pipliz.Vector3Int position, ItemTypes.ItemType type, ByteReader reader) :
             base(settings, position, type, reader)
@@ -102,30 +94,33 @@ namespace NACH0.Jobs
         }
 
 
-        public override List<string> ObjectiveCategories => new List<string>() { Items.Toilets.ToiletConstants.PLUMBING };
+        public override List<string> ObjectiveCategories => new List<string>() { "toilet" };
         public override string JobItemKey => JOB_ITEM_KEY;
         public override List<ItemId> OkStatus => new List<ItemId>
             {
                 Nach0ColonyBuiltIn.ItemTypes.TOILETCLEANINDICATOR.Id
             };
     }
-    public class MachinistTexture : CSTextureMapping
+    public class CleaningIcon : CSType
     {
-        public const string NAME = GameLoader.NAMESPACE + ".MachinistBenchTop";
-        public override string name => NAME;
-        public override string albedo => GameLoader.BLOCKS_ALBEDO_PATH + "MachinistBenchTop.png";
-        public override string normal => GameLoader.BLOCKS_NORMAL_PATH + "MachinistBenchTop.png";
-        public override string height => GameLoader.BLOCKS_HEIGHT_PATH + "MachinistBenchTop.png";
+        public override string name { get; set; } = Nach0Config.IndicatorTypePrefix + "ToiletClean";
+        public override string icon { get; set; } = Nach0Config.ModIconFolder + "ToiletClean.png";
     }
 
-    public class PlumberJobType : CSType
+    [ModLoader.ModManager]
+    public static class PlumberModEntries
     {
-        public override string name => Plumber.JOB_ITEM_KEY;
-        public override string icon => Nach0Config.ModIconFolder + "Plumbertable.png";
-        public override string onPlaceAudio => "woodPlace";
-        public override string onRemoveAudio => "woodDeleteLight";
-        public override string sideall => ColonyBuiltIn.ItemTypes.STONEBRICKS;
-        public override string sideyp => PlumberTexture.NAME;
-        public override List<string> categories => new List<string>() { "job", GameLoader.NAMESPACE };
+        [ModLoader.ModCallback(ModLoader.EModCallbackType.AfterItemTypesDefined, Nach0Config.Name + ".Plumber")]
+        [ModLoader.ModCallbackProvidesFor("create_savemanager")]
+        public static void AfterDefiningNPCTypes()
+        {
+            ServerManager.BlockEntityCallbacks.RegisterEntityManager(
+                new BlockJobManager<Plumber>(
+                    new PlumberSettings(),
+                    (setting, pos, type, bytedata) => new Plumber(setting, pos, type, bytedata),
+                    (setting, pos, type, colony) => new Plumber(setting, pos, type, colony)
+                )
+            );
+        }
     }
 }
