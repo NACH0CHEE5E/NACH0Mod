@@ -27,7 +27,7 @@ namespace NACH0.Happiness
             {
                 ServerLog.LogAsyncMessage(new LogMessage("<color=blue>2</color>", UnityEngine.LogType.Log));
                 var DirtyToiletCount = 0;
-                var toilets = toiletLocations.Where(s => s.Value.RoamingJobSettings.ObjectiveCategory == "toilet").Select(s => s.Value).ToList();
+                var toilets = toiletLocations.Where(s => s.Value?.RoamingJobSettings?.ObjectiveCategory == "toilet").Select(s => s.Value).ToList();
                 foreach (var toilet in toilets)
                 {
                     if (toilet.ActionEnergy.TryGetValue(ToiletConstants.CLEAN, out var levelOfClean))
